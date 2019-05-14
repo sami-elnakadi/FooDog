@@ -1,0 +1,971 @@
+# Copyright (C) 2017 Vinod Dalvi
+# This file is distributed under the GPLv2.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ruby 1.0.7\n"
+"POT-Creation-Date: 2017-09-19 16:49+0530\n"
+"PO-Revision-Date: 2017-03-22 14:24+0530\n"
+"Last-Translator: \n"
+"Language-Team: Free WP TP <freewptp@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;esc_html__;_x;esc_attr_x;"
+"_nx;_n;esc_attr__;esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x;"
+"_n_noop;_nx_noop;translate_nooped_plural\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:33
+msgid "Most Used Categories"
+msgstr ""
+
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: comments.php:33
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:38
+#, php-format
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:53 comments.php:75
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:56 comments.php:78
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:57 comments.php:79
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:92
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:55 inc/customizer.php:1231
+msgid "Y"
+msgstr ""
+
+#: footer.php:55 inc/customizer.php:1231
+msgid ". All Rights Reserved.&lrm;"
+msgstr ""
+
+#: functions.php:62
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:63
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:64
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:65
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:130 inc/customizer.php:629
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:132
+msgid "Displays on the right side of the page"
+msgstr ""
+
+#: functions.php:140 inc/customizer.php:630
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:142
+msgid "Displays on the left side of the page"
+msgstr ""
+
+#: functions.php:150
+msgid "Header Widget Area 1"
+msgstr ""
+
+#: functions.php:152 functions.php:162 functions.php:172
+msgid "Displays in the header"
+msgstr ""
+
+#: functions.php:160
+msgid "Header Widget Area 2"
+msgstr ""
+
+#: functions.php:170
+msgid "Header Widget Area 3"
+msgstr ""
+
+#: functions.php:180
+msgid "Homepage Widget Area 1"
+msgstr ""
+
+#: functions.php:182 functions.php:192 functions.php:202
+msgid "Displays on the Home Page"
+msgstr ""
+
+#: functions.php:190
+msgid "Homepage Widget Area 2"
+msgstr ""
+
+#: functions.php:200
+msgid "Homepage Widget Area 3"
+msgstr ""
+
+#: functions.php:210
+msgid "Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:212 functions.php:222 functions.php:232
+msgid "Displays in the footer"
+msgstr ""
+
+#: functions.php:220
+msgid "Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:230
+msgid "Footer Widget Area 3"
+msgstr ""
+
+#: header.php:28
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:128
+msgid "Menu"
+msgstr ""
+
+#: image.php:22
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:23
+msgid "Next Image"
+msgstr ""
+
+#: image.php:55 inc/template-tags.php:144 inc/template-tags.php:176
+msgid "Pages:"
+msgstr ""
+
+#: image.php:59 inc/template-tags.php:148
+msgid "Page"
+msgstr ""
+
+#: image.php:71
+msgid "Full size"
+msgstr ""
+
+#: inc/customizer.php:58
+msgid "Header Social Icon Color"
+msgstr ""
+
+#: inc/customizer.php:59 inc/customizer.php:80 inc/customizer.php:157
+#: inc/customizer.php:179 inc/customizer.php:190 inc/customizer.php:231
+#: inc/customizer.php:242 inc/customizer.php:253 inc/customizer.php:264
+#: inc/customizer.php:275
+msgid "Default used if no color is selected"
+msgstr ""
+
+#: inc/customizer.php:69
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:79
+msgid "Header Menu Background Color"
+msgstr ""
+
+#: inc/customizer.php:90
+msgid "Header Menu Item Color"
+msgstr ""
+
+#: inc/customizer.php:91
+msgid "Link color"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Header Menu Item Hover Color"
+msgstr ""
+
+#: inc/customizer.php:102
+msgid "Link Hover color"
+msgstr ""
+
+#: inc/customizer.php:112
+msgid "Header Menu Dropdown Background Color"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Background of dropdown item hover color"
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Header Menu Dropdown Item Color"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Dropdown Item Color"
+msgstr ""
+
+#: inc/customizer.php:134
+msgid "Header Menu Dropdown Item Hover Color"
+msgstr ""
+
+#: inc/customizer.php:135
+msgid "Dropdown Item Hover Color"
+msgstr ""
+
+#: inc/customizer.php:145
+msgid "Header Menu Dropdown Item Background Hover Color"
+msgstr ""
+
+#: inc/customizer.php:146
+msgid "Background of Dropdown Item Hover Color"
+msgstr ""
+
+#: inc/customizer.php:156
+msgid "Body Text Color"
+msgstr ""
+
+#: inc/customizer.php:167
+msgid "Heading Color"
+msgstr ""
+
+#: inc/customizer.php:168
+msgid "Color for all Headings (h1-h6)"
+msgstr ""
+
+#: inc/customizer.php:178
+msgid "Link Color"
+msgstr ""
+
+#: inc/customizer.php:189
+msgid "Link Hover Color"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Footer Background Color"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Footer Text Color"
+msgstr ""
+
+#: inc/customizer.php:220
+msgid "Footer Link Color"
+msgstr ""
+
+#: inc/customizer.php:230
+msgid "Footer Social Icon Color"
+msgstr ""
+
+#: inc/customizer.php:241
+msgid "Call For Action Text Color"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Call For Action Background Color"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Call For Action Button Border Color"
+msgstr ""
+
+#: inc/customizer.php:274
+msgid "Call For Action Button Text Color"
+msgstr ""
+
+#: inc/customizer.php:284
+msgid "Ruby Options"
+msgstr ""
+
+#: inc/customizer.php:285
+msgid "Panel to update ruby theme options"
+msgstr ""
+
+#: inc/customizer.php:294
+msgid "Header"
+msgstr ""
+
+#: inc/customizer.php:295
+msgid "This section configures theme header."
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Show"
+msgstr ""
+
+#: inc/customizer.php:309
+msgid "Header Logo Only"
+msgstr ""
+
+#: inc/customizer.php:310
+msgid "Header Text Only"
+msgstr ""
+
+#: inc/customizer.php:311
+msgid "Display Both"
+msgstr ""
+
+#: inc/customizer.php:312
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer.php:322
+msgid "Left Header Text"
+msgstr ""
+
+#: inc/customizer.php:333
+msgid "Right Header Text"
+msgstr ""
+
+#: inc/customizer.php:344
+msgid "Make header nav menu fixed?"
+msgstr ""
+
+#: inc/customizer.php:356
+msgid "Show social icons in the top header?"
+msgstr ""
+
+#: inc/customizer.php:368
+msgid "Show woocommerce cart in nav menu?"
+msgstr ""
+
+#: inc/customizer.php:380
+msgid "Show search form in the nav menu?"
+msgstr ""
+
+#: inc/customizer.php:392
+msgid "Display logo or site title in header nav menu."
+msgstr ""
+
+#: inc/customizer.php:398
+msgid "Show logo in nav menu"
+msgstr ""
+
+#: inc/customizer.php:399
+msgid "Show site title in nav menu"
+msgstr ""
+
+#: inc/customizer.php:400
+msgid "Hide logo and site title in nav menu"
+msgstr ""
+
+#: inc/customizer.php:408
+msgid "Footer"
+msgstr ""
+
+#: inc/customizer.php:419
+msgid "Footer information"
+msgstr ""
+
+#: inc/customizer.php:420
+msgid "Copyright text in footer"
+msgstr ""
+
+#: inc/customizer.php:433
+msgid "Show scroll to top?"
+msgstr ""
+
+#: inc/customizer.php:445
+msgid "Show footer social icons?"
+msgstr ""
+
+#: inc/customizer.php:455
+msgid "Typography"
+msgstr ""
+
+#: inc/customizer.php:467
+msgid "Body Text Size"
+msgstr ""
+
+#: inc/customizer.php:471
+msgid "6px"
+msgstr ""
+
+#: inc/customizer.php:472 inc/customizer.php:473
+msgid "12px"
+msgstr ""
+
+#: inc/customizer.php:474
+msgid "14px"
+msgstr ""
+
+#: inc/customizer.php:475
+msgid "15px"
+msgstr ""
+
+#: inc/customizer.php:476
+msgid "16px"
+msgstr ""
+
+#: inc/customizer.php:477
+msgid "18px"
+msgstr ""
+
+#: inc/customizer.php:478
+msgid "20px"
+msgstr ""
+
+#: inc/customizer.php:479
+msgid "24px"
+msgstr ""
+
+#: inc/customizer.php:480
+msgid "28px"
+msgstr ""
+
+#: inc/customizer.php:481
+msgid "32px"
+msgstr ""
+
+#: inc/customizer.php:482
+msgid "36px"
+msgstr ""
+
+#: inc/customizer.php:483
+msgid "42px"
+msgstr ""
+
+#: inc/customizer.php:484
+msgid "48px"
+msgstr ""
+
+#: inc/customizer.php:495
+msgid "Body Text Font"
+msgstr ""
+
+#: inc/customizer.php:499
+msgid "Roboto, sans-serif"
+msgstr ""
+
+#: inc/customizer.php:500
+msgid "Arial"
+msgstr ""
+
+#: inc/customizer.php:501
+msgid "Verdana, Geneva"
+msgstr ""
+
+#: inc/customizer.php:502
+msgid "Trebuchet"
+msgstr ""
+
+#: inc/customizer.php:503
+msgid "Georgia"
+msgstr ""
+
+#: inc/customizer.php:504
+msgid "Times New Roman"
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "Tahoma, Geneva"
+msgstr ""
+
+#: inc/customizer.php:506
+msgid "Open Sans"
+msgstr ""
+
+#: inc/customizer.php:507
+msgid "Palatino"
+msgstr ""
+
+#: inc/customizer.php:508
+msgid "Helvetica"
+msgstr ""
+
+#: inc/customizer.php:509
+msgid "Helvetica Neue, Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: inc/customizer.php:520
+msgid "Body Text Style"
+msgstr ""
+
+#: inc/customizer.php:524
+msgid "Normal"
+msgstr ""
+
+#: inc/customizer.php:525
+msgid "Bold"
+msgstr ""
+
+#: inc/customizer.php:533
+msgid "Content Options"
+msgstr ""
+
+#: inc/customizer.php:545
+msgid "Show post excerpts?"
+msgstr ""
+
+#: inc/customizer.php:557
+msgid "Post Excerpt Length"
+msgstr ""
+
+#: inc/customizer.php:562
+msgid "15"
+msgstr ""
+
+#: inc/customizer.php:563
+msgid "25"
+msgstr ""
+
+#: inc/customizer.php:564
+msgid "35"
+msgstr ""
+
+#: inc/customizer.php:565
+msgid "45"
+msgstr ""
+
+#: inc/customizer.php:566
+msgid "55"
+msgstr ""
+
+#: inc/customizer.php:567
+msgid "65"
+msgstr ""
+
+#: inc/customizer.php:568
+msgid "75"
+msgstr ""
+
+#: inc/customizer.php:569
+msgid "85"
+msgstr ""
+
+#: inc/customizer.php:570
+msgid "95"
+msgstr ""
+
+#: inc/customizer.php:571
+msgid "105"
+msgstr ""
+
+#: inc/customizer.php:572
+msgid "115"
+msgstr ""
+
+#: inc/customizer.php:573
+msgid "125"
+msgstr ""
+
+#: inc/customizer.php:574
+msgid "135"
+msgstr ""
+
+#: inc/customizer.php:575
+msgid "145"
+msgstr ""
+
+#: inc/customizer.php:585
+msgid "Display Comments on Static Pages?"
+msgstr ""
+
+#: inc/customizer.php:596
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer.php:607
+msgid "This will set the default site layout style."
+msgstr ""
+
+#: inc/customizer.php:612
+msgid "Wide Layout"
+msgstr ""
+
+#: inc/customizer.php:613
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/customizer.php:624
+msgid ""
+"This will set the default sidebar layout style. However, you can choose "
+"different layout for each page via page editor"
+msgstr ""
+
+#: inc/customizer.php:631
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer.php:632
+msgid "No Sidebar, Full Width"
+msgstr ""
+
+#: inc/customizer.php:640
+msgid "Slider options"
+msgstr ""
+
+#: inc/customizer.php:651
+msgid "Check if you want to enable slider"
+msgstr ""
+
+#: inc/customizer.php:664
+msgid "Slider Category"
+msgstr ""
+
+#: inc/customizer.php:667
+msgid "Select a category for the featured post slider"
+msgstr ""
+
+#: inc/customizer.php:677
+msgid "Slider Order"
+msgstr ""
+
+#: inc/customizer.php:680
+msgid "Select a post order for the slider"
+msgstr ""
+
+#: inc/customizer.php:682
+msgid "date"
+msgstr ""
+
+#: inc/customizer.php:683
+msgid "ID"
+msgstr ""
+
+#: inc/customizer.php:684
+msgid "author"
+msgstr ""
+
+#: inc/customizer.php:685
+msgid "title"
+msgstr ""
+
+#: inc/customizer.php:686
+msgid "name"
+msgstr ""
+
+#: inc/customizer.php:687
+msgid "modified"
+msgstr ""
+
+#: inc/customizer.php:688
+msgid "rand"
+msgstr ""
+
+#: inc/customizer.php:689
+msgid "comment_count"
+msgstr ""
+
+#: inc/customizer.php:690
+msgid "menu_order"
+msgstr ""
+
+#: inc/customizer.php:703
+msgid "ASC"
+msgstr ""
+
+#: inc/customizer.php:704
+msgid "DESC"
+msgstr ""
+
+#: inc/customizer.php:714
+msgid "Number of slide items"
+msgstr ""
+
+#: inc/customizer.php:716
+msgid "Enter the number of slide items"
+msgstr ""
+
+#: inc/customizer.php:726
+msgid "Use pages for the slider?"
+msgstr ""
+
+#: inc/customizer.php:727
+msgid "Use slider_link in the page custom field"
+msgstr ""
+
+#: inc/customizer.php:738
+msgid "Show slider text?"
+msgstr ""
+
+#: inc/customizer.php:749
+msgid "Show slider only on home page?"
+msgstr ""
+
+#: inc/customizer.php:760
+msgid "Hide slider posts from posts listings pages?"
+msgstr ""
+
+#: inc/customizer.php:771
+msgid "Hide slider category on posts?"
+msgstr ""
+
+#: inc/customizer.php:780
+msgid "Action Buttons"
+msgstr ""
+
+#: inc/customizer.php:791
+msgid "Header CFA Text"
+msgstr ""
+
+#: inc/customizer.php:792 inc/customizer.php:839
+msgid "Enter the text for Call For Action section"
+msgstr ""
+
+#: inc/customizer.php:803
+msgid "Header CFA Button Text"
+msgstr ""
+
+#: inc/customizer.php:805 inc/customizer.php:852
+msgid "Enter the text for Call For Action button"
+msgstr ""
+
+#: inc/customizer.php:815
+msgid "Header CFA Button Link"
+msgstr ""
+
+#: inc/customizer.php:817 inc/customizer.php:864
+msgid "Enter the link for Call For Action button"
+msgstr ""
+
+#: inc/customizer.php:827
+msgid "Show header CFA only on home page?"
+msgstr ""
+
+#: inc/customizer.php:838
+msgid "Footer CFA Text"
+msgstr ""
+
+#: inc/customizer.php:850
+msgid "Footer CFA Button Title"
+msgstr ""
+
+#: inc/customizer.php:862
+msgid "Footer CFA Button Link"
+msgstr ""
+
+#: inc/customizer.php:874
+msgid "Show footer CFA only on home page?"
+msgstr ""
+
+#: inc/customizer.php:884
+msgid "Home Page Options"
+msgstr ""
+
+#: inc/customizer.php:894
+msgid ""
+"You may select multiple categories by holding down the CTRL (Windows) or cmd "
+"(Mac)."
+msgstr ""
+
+#: inc/customizer.php:905
+msgid "Support and Documentation"
+msgstr ""
+
+#: inc/customizer.php:1247
+msgid "Ruby Theme Documentation"
+msgstr ""
+
+#: inc/customizer.php:1248
+msgid "If you have <b>support questions</b> then best way to contact us is via"
+msgstr ""
+
+#: inc/customizer.php:1248
+msgid "Free WP TP support forum"
+msgstr ""
+
+#: inc/customizer.php:1249
+msgid "If you like this theme, we'd appreciate any of the following:"
+msgstr ""
+
+#: inc/customizer.php:1251
+msgid "Rate this Theme"
+msgstr ""
+
+#: inc/customizer.php:1252
+msgid "Like on Facebook"
+msgstr ""
+
+#: inc/customizer.php:1253
+msgid "Follow on Twitter"
+msgstr ""
+
+#: inc/customizer.php:1284
+msgid "Home Page Posts Categories:"
+msgstr ""
+
+#: inc/customizer.php:1285
+msgid ""
+"Only posts that belong to the categories selected here will be displayed on "
+"the front page."
+msgstr ""
+
+#: inc/customizer.php:1290
+msgid "--Disabled--"
+msgstr ""
+
+#: inc/extras.php:303
+msgid ""
+"This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: inc/extras.php:304
+msgid "Password:"
+msgstr ""
+
+#: inc/extras.php:307
+msgid "Submit"
+msgstr ""
+
+#: inc/extras.php:374
+msgid "Untitled:"
+msgstr ""
+
+#: inc/extras.php:419
+#, php-format
+msgid "%1$s Theme Powered by %2$s"
+msgstr ""
+
+#: inc/metaboxes.php:19
+msgid ""
+"Select layout for this specific Page only ( Note: This setting only reflects "
+"if page Template is set as Default Template and Ruby Type Templates.)"
+msgstr ""
+
+#: inc/metaboxes.php:35
+msgid "Default Layout Set in"
+msgstr ""
+
+#: inc/metaboxes.php:35
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/metaboxes.php:41
+msgid "No sidebar"
+msgstr ""
+
+#: inc/metaboxes.php:47
+msgid "No sidebar, Full Width"
+msgstr ""
+
+#: inc/metaboxes.php:53
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/metaboxes.php:59
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/navwalker.php:111
+msgid "child menu"
+msgstr ""
+
+#: inc/navwalker.php:196
+msgid "Add a menu"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:54 inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:59
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/template-tags.php:79 template-parts/content-page.php:38
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:164 inc/template-tags.php:170
+msgid "Read More"
+msgstr ""
+
+#: inc/template-tags.php:193
+msgid "Newer posts"
+msgstr ""
+
+#: inc/template-tags.php:194
+msgid "Older posts"
+msgstr ""
+
+#: search.php:19
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search..."
+msgstr ""
+
+#: searchform.php:16
+msgid "Search"
+msgstr ""
+
+#: sidebar-left.php:16 sidebar.php:16
+msgid "Add widgets in the widget area."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:32
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""

@@ -1,0 +1,87 @@
+/*
+Theme Name: Ruby
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.pull-right {
+	float: left;
+}
+
+.social-menu li:first-child {
+	margin-left: 10px;
+}
+
+.social-menu li {
+	float: right;
+	margin-left: 10px;
+}
+
+.header-text-wrapper .col-sm-6:nth-child(1) {
+	text-align: right;
+}
+
+.header-text-wrapper .col-sm-6:nth-child(2) {
+	text-align: left;
+}
+
+.main-navigation li {
+	float: right;
+}
+
+#top-navigation li:last-child {
+	margin-right: 20px;
+}
+
+#top-navigation li:first-child {
+	margin-right: 0;
+}
+
+.footer-social-icons .social-icons {
+	float: left;
+}
+
+.footer-social-icons .social-icons li:last-child {
+	margin-left: 0;
+}
+
+@media ( min-width: 768px ){
+	
+	.col-sm-8,
+	.col-sm-6 {
+		float: right;
+	}
+
+	.footer-menu-wrapper .navbar-nav,
+	.footer-menu-wrapper li {
+		float: right;
+		padding: 0;
+	}
+
+	.footer-menu-wrapper li:first-child{
+		margin-right: 0;
+	}
+
+	.right-sidebar-template #primary.col-md-8 {
+		padding-left: 15px;
+		padding-right: 0;
+	}
+
+	.left-sidebar-template #primary.col-md-8 {
+		float: left;
+		padding-right: 15px;
+		padding-left: 0;
+	}
+
+}

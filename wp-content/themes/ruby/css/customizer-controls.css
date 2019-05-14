@@ -1,0 +1,56 @@
+/*
+Theme Name: Ruby
+Description: Used to style customizer controls.
+*/
+
+.customize-control-radio-image .image label {
+	background: #fff;
+	box-sizing: border-box;
+	display: inline-block;
+	width: 50%;
+	float: left;
+	line-height: 35px;
+	padding: 5px 10px;
+}
+
+.customize-control-radio-image label img {
+	border: 0;
+	height: auto;
+	width: 100%;
+	opacity: 0.5;
+}
+
+.customize-control-radio-image label:hover img {
+	opacity: 0.9;
+	border-color: #999;
+}
+
+.customize-control-radio-image .image{
+	margin: 20px 0;
+}
+
+span.radio-text {
+	display: inline-block;
+	word-wrap: break-word;
+	width: 83px;
+	line-height: 1.2em;
+	vertical-align: middle;
+}
+
+#accordion-section-ruby_important_links h3.accordion-section-title,
+#accordion-section-ruby_important_links h3.accordion-section-title:focus {
+	background-color: #363839 !important;
+	color: #fff !important;
+}
+
+#customize-control-background_color,
+#customize-control-ruby_header_bg_color,
+#customize-control-ruby_nav_dropdown_bg_hover_color,
+#customize-control-ruby_heading_color,
+#customize-control-ruby_link_hover_color,
+#customize-control-ruby_social_footer_color,
+#customize-control-ruby_right_header_text,
+#customize-control-ruby_search_form_in_header,
+#customize-control-ruby_cfa_home_page {
+	margin-bottom: 40px;
+}
