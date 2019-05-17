@@ -1554,10 +1554,7 @@ article,
 article.tag-success,
 .widget {
 	background-color: #fff;
-	border: 1px solid #ccc;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	border-radius: 3px;
+
 	box-shadow: none;
 	padding: 30px;
 }

@@ -1,0 +1,30 @@
+/*
+Theme Name: Ruby Enfant par WP Marmite
+Description: Theme enfant du theme Ruby. Vous pouvez desormais le personnaliser sans risquer de perdre vos modifications
+Author: WPMarmite
+Author URI: https://wpmarmite.com
+Template: ruby
+Version: 1.0
+*/
+
+a{
+    font-family: 'Crimson Text', serif;
+}
+
+.main-navigation .navbar-nav a{
+    color: black !important; 
+}
+
+.main-navigation .navbar-nav a:hover{
+    color: #808080 !important; 
+}
+
+.widget-title{
+    display: none;
+}
+
+.entry-title a{
+    font-weight: 900;
+    color:#4b4f54 !important;
+    font-family: 'Raleway', sans-serif;
+}
