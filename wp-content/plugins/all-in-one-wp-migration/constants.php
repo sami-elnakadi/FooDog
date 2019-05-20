@@ -35,7 +35,7 @@ define( 'AI1WM_DEBUG', false );
 // ==================
 // = Plugin Version =
 // ==================
-define( 'AI1WM_VERSION', '6.94' );
+define( 'AI1WM_VERSION', '6.95' );
 
 // ===============
 // = Plugin Name =

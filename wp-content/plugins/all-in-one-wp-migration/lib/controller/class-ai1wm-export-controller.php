@@ -163,38 +163,38 @@ class Ai1wm_Export_Controller {
 	}
 
 	public static function cleanup() {
-		// Iterate over storage directory
-		$iterator = new Ai1wm_Recursive_Directory_Iterator( AI1WM_STORAGE_PATH );
+		// // Iterate over storage directory
+		// $iterator = new Ai1wm_Recursive_Directory_Iterator( AI1WM_STORAGE_PATH );
 
-		// Exclude index.php
-		$iterator = new Ai1wm_Recursive_Exclude_Filter( $iterator, array( 'index.php' ) );
+		// // Exclude index.php
+		// $iterator = new Ai1wm_Recursive_Exclude_Filter( $iterator, array( 'index.php' ) );
 
-		// Recursively iterate over content directory
-		$iterator = new Ai1wm_Recursive_Iterator_Iterator( $iterator, RecursiveIteratorIterator::CHILD_FIRST, RecursiveIteratorIterator::CATCH_GET_CHILD );
+		// // Recursively iterate over content directory
+		// $iterator = new Ai1wm_Recursive_Iterator_Iterator( $iterator, RecursiveIteratorIterator::CHILD_FIRST, RecursiveIteratorIterator::CATCH_GET_CHILD );
 
-		// We can't delete in the main loop since deletion updates mtime for parent folders
-		$files = $folders = array();
-		foreach ( $iterator as $item ) {
-			try {
-				if ( $item->getMTime() < time() - 23 * 60 * 60 ) {
-					if ( $item->isFile() ) {
-						$files[] = $item->getPathname();
-					} elseif ( $item->isDir() ) {
-						$folders[] = $item->getPathname();
-					}
-				}
-			} catch ( Exception $e ) {
-			}
-		}
+		// // We can't delete in the main loop since deletion updates mtime for parent folders
+		// $files = $folders = array();
+		// foreach ( $iterator as $item ) {
+		// 	try {
+		// 		if ( $item->getMTime() < time() - 23 * 60 * 60 ) {
+		// 			if ( $item->isFile() ) {
+		// 				$files[] = $item->getPathname();
+		// 			} elseif ( $item->isDir() ) {
+		// 				$folders[] = $item->getPathname();
+		// 			}
+		// 		}
+		// 	} catch ( Exception $e ) {
+		// 	}
+		// }
 
-		// Delete outdated files
-		foreach ( $files as $file ) {
-			@unlink( $file );
-		}
+		// // Delete outdated files
+		// foreach ( $files as $file ) {
+		// 	@unlink( $file );
+		// }
 
-		// Delete outdated folders
-		foreach ( $folders as $folder ) {
-			Ai1wm_Directory::delete( $folder );
-		}
+		// // Delete outdated folders
+		// foreach ( $folders as $folder ) {
+		// 	Ai1wm_Directory::delete( $folder );
+		// }
 	}
 }
