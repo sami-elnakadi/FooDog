@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-05-09 20:58:08+0000\n"
+"PO-Revision-Date: 2019-05-16 11:55:07+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -137,7 +137,7 @@ msgstr ""
 msgid "Please contact your host for assistance with investigating this issue further."
 msgstr "Veuillez contacter votre hébergeur pour une assistance concernant la résolution de ce problème."
 
-#: wp-includes/class-wp-fatal-error-handler.php:169
+#: wp-includes/class-wp-fatal-error-handler.php:173
 msgid "The site is experiencing technical difficulties. Please check your site admin email inbox for instructions."
 msgstr "Le site rencontre des difficultés techniques. Veuillez relever la boîte de messagerie du compte administrateur du site pour obtenir des instructions."
 
@@ -158,7 +158,7 @@ msgstr "[%s] Détails de connexion"
 #: wp-includes/media-template.php:485 wp-includes/media-template.php:596
 #: wp-includes/media.php:3675
 msgid "Move to Trash"
-msgstr "Déplacer dans la corbeille"
+msgstr "Mettre à la corbeille"
 
 #: wp-includes/media-template.php:483 wp-includes/media-template.php:594
 #: wp-includes/media.php:3676
@@ -279,7 +279,7 @@ msgstr "Texte d’espace réservé facultatif"
 
 #: wp-includes/js/dist/block-library.js:19584
 msgid "Add label…"
-msgstr "Ajouter un libellé..."
+msgstr "Ajouter un libellé…"
 
 #: wp-includes/js/dist/block-library.js:19583
 msgid "Label text"
@@ -319,7 +319,7 @@ msgstr "lien"
 
 #: wp-includes/js/dist/block-library.js:17609
 msgid "Prompt visitors to take action with a button-style link."
-msgstr "Inviter les visiteurs à effectuer un e action avec un lien en style de bouton."
+msgstr "Inviter les visiteurs à effectuer une action avec un lien en forme de bouton."
 
 #: wp-includes/js/dist/block-library.js:14903
 msgid "Focal Point Picker"
@@ -631,13 +631,13 @@ msgstr "Aucun terme à afficher"
 
 #. translators: %s: the amount of additional, not visible images in the gallery
 #. widget preview.
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:217
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:218
 msgid "Additional images added to this gallery: %s"
 msgstr "Images supplémentaires ajoutées à cette galerie : %s"
 
 #. translators: %s: the image file name.
-#: wp-includes/widgets/class-wp-widget-media-image.php:358
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:203
+#: wp-includes/widgets/class-wp-widget-media-image.php:359
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:204
 msgid "The current image has no alternative text. The file name is: %s"
 msgstr "L’image actuelle n’a pas de texte alternatif. Le nom du fichier est : %s"
 
@@ -814,7 +814,7 @@ msgid_plural "%s minutes"
 msgstr[0] "%s minute"
 msgstr[1] "%s minutes"
 
-#: wp-includes/class-wp-fatal-error-handler.php:171
+#: wp-includes/class-wp-fatal-error-handler.php:175
 msgid "The site is experiencing technical difficulties."
 msgstr "Ce site rencontre des difficultés techniques."
 
@@ -961,7 +961,7 @@ msgstr "(bloc sélectionné)"
 msgid "Block tools"
 msgstr "Outils de bloc"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:162
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:163
 msgid "Sorry, you are not allowed to view autosaves of this post."
 msgstr "Désolé, vous n’avez pas l’autorisation de voir les sauvegardes automatiques de cette publication."
 
@@ -2587,7 +2587,7 @@ msgstr "Voulez-vous passer cette publication en privé ?"
 
 #: wp-includes/js/dist/editor.js:12748
 msgid "Move to trash"
-msgstr "Déplacer vers la corbeille"
+msgstr "Mettre à la corbeille"
 
 #: wp-includes/js/dist/editor.js:12636 wp-includes/js/dist/editor.js:12641
 msgid "Add title"
@@ -3631,15 +3631,15 @@ msgstr "Version du format de bloc de contenu utilisé par l’objet."
 msgid "Slug automatically generated from the object title."
 msgstr "Slug automatiquement généré depuis le titre d’objet."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:352
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:353
 msgid "There is nothing to save. The autosave and the post content are the same."
 msgstr "Il n’y a rien à enregistrer. Le contenu actuel et le contenu auto-enregistré sont identiques."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:301
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:302
 msgid "Preview link for the post."
 msgstr "Lien de prévisualisation de la publication."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:252
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:253
 msgid "There is no autosave revision for this post."
 msgstr "Il n’y a aucune révision auto-enregistrée pour cette publication."
 
@@ -3647,11 +3647,11 @@ msgstr "Il n’y a aucune révision auto-enregistrée pour cette publication."
 msgid "Permalink template for the object."
 msgstr "Modèle de permalien pour l’objet."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:246
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:247
 msgid "Invalid parent post ID."
 msgstr "ID de publication parente non valide."
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:116
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:117
 msgid "The ID for the object."
 msgstr "L’ID pour l’objet."
 
@@ -4238,7 +4238,7 @@ msgid "Click &#8220;Next&#8221; to start adding links to your new menu."
 msgstr "Cliquez sur « Suivant » pour commencer à ajouter des liens à votre nouveau menu."
 
 #. translators: %s: a list of valid video file extensions
-#: wp-includes/widgets/class-wp-widget-media-video.php:50
+#: wp-includes/widgets/class-wp-widget-media-video.php:51
 msgid "Sorry, we can&#8217;t load the video at the supplied URL. Please check that the URL is for a supported video file (%s) or stream (e.g. YouTube and Vimeo)."
 msgstr "Désolé, nous ne pouvons pas charger la vidéo depuis l’URL fournie. Veuillez vérifier que l’URL est celle d’un fichier vidéo supporté (%s) ou diffusé (ex : YouTube et Vimeo)."
 
@@ -4406,19 +4406,19 @@ msgstr "Type de valeur non supporté (%s)."
 msgid "Widgets need to be registered using %s, before they can be displayed."
 msgstr "Les widgets nécessitent d’être enregistrés en utilisant %s avant qu’ils ne puissent être affichés."
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:336
+#: wp-includes/widgets/class-wp-widget-media-image.php:337
 msgid "Link to:"
 msgstr "Lien vers :"
 
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:37
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:38
 msgid "No images selected"
 msgstr "Aucune image sélectionnée"
 
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:29
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:30
 msgid "Displays an image gallery."
 msgstr "Affiche une galerie d’images."
 
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:27
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:28
 #: wp-includes/js/dist/editor.js:8813
 #: wp-includes/js/dist/block-library.js:13262
 #: wp-includes/js/dist/block-library.js:13421
@@ -5321,17 +5321,17 @@ msgctxt "label for button in the media widget"
 msgid "Add Media"
 msgstr "Ajouter un média"
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:38
+#: wp-includes/widgets/class-wp-widget-media-video.php:39
 msgctxt "label for button in the video widget"
 msgid "Add Video"
 msgstr "Ajouter une vidéo"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:38
+#: wp-includes/widgets/class-wp-widget-media-image.php:39
 msgctxt "label for button in the image widget"
 msgid "Add Image"
 msgstr "Ajouter une image"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:38
+#: wp-includes/widgets/class-wp-widget-media-audio.php:39
 msgctxt "label for button in the audio widget"
 msgid "Add Audio"
 msgstr "Ajouter un son"
@@ -5393,7 +5393,7 @@ msgstr "Le réseau n’autorise actuellement pas les inscriptions."
 msgid "Greetings Network Administrator!"
 msgstr "Bienvenue, Administrateur du réseau !"
 
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:61
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:62
 #: wp-includes/widgets/class-wp-widget-media.php:151
 msgid "Title for the widget"
 msgstr "Titre pour le widget"
@@ -5449,127 +5449,127 @@ msgid "A media item."
 msgstr "Un élément média."
 
 #. translators: %s: video extension
-#: wp-includes/widgets/class-wp-widget-media-video.php:96
+#: wp-includes/widgets/class-wp-widget-media-video.php:97
 msgid "URL to the %s video source file"
 msgstr "URL vers le fichier source vidéo %s"
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:48
+#: wp-includes/widgets/class-wp-widget-media-video.php:49
 msgid "Video Widget"
 msgstr "Widget vidéo"
 
 #. translators: %d: widget count
-#: wp-includes/widgets/class-wp-widget-media-video.php:47
+#: wp-includes/widgets/class-wp-widget-media-video.php:48
 msgid "Video Widget (%d)"
 msgid_plural "Video Widget (%d)"
 msgstr[0] "Widget vidéo (%d)"
 msgstr[1] "Widgets vidéo (%d)"
 
 #. translators: %s: URL to media library
-#: wp-includes/widgets/class-wp-widget-media-video.php:43
+#: wp-includes/widgets/class-wp-widget-media-video.php:44
 msgid "We can&#8217;t find that video. Check your <a href=\"%s\">media library</a> and make sure it wasn&#8217;t deleted."
 msgstr "Nous ne trouvons pas cette vidéo. Vérifiez votre <a href=\"%s\">bibliothèque</a> et assurez vous qu’elle n’a pas été supprimée. "
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:40
+#: wp-includes/widgets/class-wp-widget-media-video.php:41
 msgctxt "label for button in the video widget; should preferably not be longer than ~13 characters long"
 msgid "Edit Video"
 msgstr "Modifier la vidéo"
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:39
+#: wp-includes/widgets/class-wp-widget-media-video.php:40
 msgctxt "label for button in the video widget; should preferably not be longer than ~13 characters long"
 msgid "Replace Video"
 msgstr "Remplacer la vidéo"
 
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:38
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:39
 msgctxt "label for button in the gallery widget; should not be longer than ~13 characters long"
 msgid "Add Images"
 msgstr "Ajouter"
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:29
+#: wp-includes/widgets/class-wp-widget-media-video.php:30
 msgid "Displays a video from the media library or from YouTube, Vimeo, or another provider."
 msgstr "Affiche une vidéo depuis votre bibliothèque, YouTube, Vimeo ou un autre fournisseur."
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:48
+#: wp-includes/widgets/class-wp-widget-media-image.php:49
 msgid "Image Widget"
 msgstr "Widget image"
 
 #. translators: %d: widget count
-#: wp-includes/widgets/class-wp-widget-media-image.php:47
+#: wp-includes/widgets/class-wp-widget-media-image.php:48
 msgid "Image Widget (%d)"
 msgid_plural "Image Widget (%d)"
 msgstr[0] "Widget image (%d)"
 msgstr[1] "Widgets image (%d)"
 
 #. translators: %s: URL to media library
-#: wp-includes/widgets/class-wp-widget-media-image.php:43
+#: wp-includes/widgets/class-wp-widget-media-image.php:44
 msgid "We can&#8217;t find that image. Check your <a href=\"%s\">media library</a> and make sure it wasn&#8217;t deleted."
 msgstr "Nous ne trouvons pas cette image. Vérifiez votre <a href=\"%s\">bibliothèque</a> et assurez vous qu’elle n’a pas été supprimée. "
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:40
+#: wp-includes/widgets/class-wp-widget-media-image.php:41
 msgctxt "label for button in the image widget; should preferably not be longer than ~13 characters long"
 msgid "Edit Image"
 msgstr "Modifier l’image"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:39
+#: wp-includes/widgets/class-wp-widget-media-image.php:40
 msgctxt "label for button in the image widget; should preferably not be longer than ~13 characters long"
 msgid "Replace Image"
 msgstr "Remplacer l’image"
 
-#: wp-includes/widgets/class-wp-widget-media-gallery.php:40
+#: wp-includes/widgets/class-wp-widget-media-gallery.php:41
 msgctxt "label for button in the gallery widget; should not be longer than ~13 characters long"
 msgid "Edit Gallery"
 msgstr "Ajouter"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:29
+#: wp-includes/widgets/class-wp-widget-media-image.php:30
 msgid "Displays an image."
 msgstr "Affiche une image."
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:348
-#: wp-includes/widgets/class-wp-widget-media-audio.php:196
-#: wp-includes/widgets/class-wp-widget-media-video.php:240
+#: wp-includes/widgets/class-wp-widget-media-image.php:349
+#: wp-includes/widgets/class-wp-widget-media-audio.php:197
+#: wp-includes/widgets/class-wp-widget-media-video.php:241
 msgid "Unable to preview media due to an unknown error."
 msgstr "Impossible de prévisualiser le média en raison d’une erreur inconnue."
 
 #. translators: %s: audio extension
-#: wp-includes/widgets/class-wp-widget-media-audio.php:85
+#: wp-includes/widgets/class-wp-widget-media-audio.php:86
 msgid "URL to the %s audio source file"
 msgstr "URL vers le fichier source du son %s"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:49
+#: wp-includes/widgets/class-wp-widget-media-audio.php:50
 msgid "Looks like this isn&#8217;t the correct kind of file. Please link to an audio file instead."
 msgstr "Il semble que ceci ne soit pas le type de fichier correct. Veuillez faire un lien vers un fichier son à la place."
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:48
+#: wp-includes/widgets/class-wp-widget-media-audio.php:49
 msgid "Audio Widget"
 msgstr "Widget de son"
 
 #. translators: %d: widget count
-#: wp-includes/widgets/class-wp-widget-media-audio.php:47
+#: wp-includes/widgets/class-wp-widget-media-audio.php:48
 msgid "Audio Widget (%d)"
 msgid_plural "Audio Widget (%d)"
 msgstr[0] "Widget de son (%d)"
 msgstr[1] "Widgets de son (%d)"
 
 #. translators: %s: URL to media library
-#: wp-includes/widgets/class-wp-widget-media-audio.php:43
+#: wp-includes/widgets/class-wp-widget-media-audio.php:44
 msgid "We can&#8217;t find that audio file. Check your <a href=\"%s\">media library</a> and make sure it wasn&#8217;t deleted."
 msgstr "Nous ne trouvons pas ce fichier audio. Vérifiez votre <a href=\"%s\">bibliothèque</a> et assurez vous qu’il n’a pas été supprimé. "
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:40
+#: wp-includes/widgets/class-wp-widget-media-audio.php:41
 msgctxt "label for button in the audio widget; should preferably not be longer than ~13 characters long"
 msgid "Edit Audio"
 msgstr "Modifier le son"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:39
+#: wp-includes/widgets/class-wp-widget-media-audio.php:40
 msgctxt "label for button in the audio widget; should preferably not be longer than ~13 characters long"
 msgid "Replace Audio"
 msgstr "Remplacer le son"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:37
+#: wp-includes/widgets/class-wp-widget-media-audio.php:38
 #: wp-includes/customize/class-wp-customize-media-control.php:233
 msgid "No audio selected"
 msgstr "Aucun fichier audio sélectionné"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:29
+#: wp-includes/widgets/class-wp-widget-media-audio.php:30
 msgid "Displays an audio player."
 msgstr "Affiche un lecteur audio."
 
@@ -6296,7 +6296,7 @@ msgstr "Sélectionnez une vidéo"
 msgid "Change video"
 msgstr "Modifier la vidéo"
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:37
+#: wp-includes/widgets/class-wp-widget-media-video.php:38
 #: wp-includes/customize/class-wp-customize-media-control.php:223
 msgid "No video selected"
 msgstr "Aucune vidéo sélectionnée"
@@ -7138,8 +7138,8 @@ msgstr "L’ID de l’objet publication associé."
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:94
 #: wp-includes/rest-api/endpoints/class-wp-rest-revisions-controller.php:655
 #: wp-includes/rest-api/endpoints/class-wp-rest-posts-controller.php:1979
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:86
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:112
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:87
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:113
 msgid "The ID for the parent of the object."
 msgstr "L’ID du parent de l’objet."
 
@@ -9697,7 +9697,7 @@ msgstr "Classes CSS"
 msgid "Title Attribute"
 msgstr "Attribut de titre"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:142
+#: wp-includes/widgets/class-wp-widget-media-image.php:143
 #: wp-includes/media-template.php:1082
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:106
 #: wp-includes/class-wp-editor.php:1741
@@ -10267,7 +10267,7 @@ msgstr "Choisissez un fichier"
 msgid "Select image"
 msgstr "Sélectionner une image"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:37
+#: wp-includes/widgets/class-wp-widget-media-image.php:38
 #: wp-includes/customize/class-wp-customize-media-control.php:244
 msgid "No image selected"
 msgstr "Aucune image sélectionnée"
@@ -10576,12 +10576,12 @@ msgstr "Album"
 msgid "Artist"
 msgstr "Artiste"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:119
+#: wp-includes/widgets/class-wp-widget-media-image.php:120
 #: wp-includes/media-template.php:1076
 msgid "Image CSS Class"
 msgstr "Classe CSS de l’image"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:150
+#: wp-includes/widgets/class-wp-widget-media-image.php:151
 #: wp-includes/media-template.php:1072
 msgid "Image Title Attribute"
 msgstr "Attribut « Title » de l’image"
@@ -10623,7 +10623,7 @@ msgstr "Réglages de l’affichage"
 msgid "Show Video List"
 msgstr "Afficher la liste des vidéos"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:128
+#: wp-includes/widgets/class-wp-widget-media-image.php:129
 #: wp-includes/media-template.php:1089
 #: wp-includes/js/dist/block-library.js:10388
 msgid "Link CSS Class"
@@ -10660,7 +10660,7 @@ msgctxt "auto preload"
 msgid "Auto"
 msgstr "Automatique"
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:85
+#: wp-includes/widgets/class-wp-widget-media-video.php:86
 #: wp-includes/media-template.php:1273 wp-includes/media-template.php:1278
 msgid "Tracks (subtitles, captions, descriptions, chapters, or metadata)"
 msgstr "Pistes (sous-titres, légendes, descriptions, chapitres ou métadonnées)"
@@ -11828,7 +11828,7 @@ msgstr[1] "Vidéos <span class=\"count\">(%s)</span>"
 msgid "Manage Video"
 msgstr "Gérer les vidéos"
 
-#: wp-includes/widgets/class-wp-widget-media-video.php:27
+#: wp-includes/widgets/class-wp-widget-media-video.php:28
 #: wp-includes/post.php:2630 wp-includes/js/dist/editor.js:8831
 #: wp-includes/js/dist/block-editor.js:16105
 #: wp-includes/js/dist/block-library.js:15794
@@ -11863,7 +11863,7 @@ msgstr "Téléversé sur cette page"
 msgid "Insert into page"
 msgstr "Insérer dans la page"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:27
+#: wp-includes/widgets/class-wp-widget-media-audio.php:28
 #: wp-includes/post.php:2629 wp-includes/js/dist/editor.js:8834
 #: wp-includes/js/dist/block-editor.js:16101
 #: wp-includes/js/dist/block-library.js:14521
@@ -12021,7 +12021,7 @@ msgstr "Fichier média"
 msgid "Attachment Page"
 msgstr "Page du fichier joint"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:103
+#: wp-includes/widgets/class-wp-widget-media-image.php:104
 #: wp-includes/media-template.php:698 wp-includes/media-template.php:780
 #: wp-includes/media-template.php:934 wp-includes/media-template.php:1044
 #: wp-includes/js/dist/block-library.js:10373
@@ -12149,7 +12149,7 @@ msgctxt "Uploader: Drop files here - or - Select Files"
 msgid "or"
 msgstr "ou"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:96
+#: wp-includes/widgets/class-wp-widget-media-image.php:97
 #: wp-includes/media-template.php:422 wp-includes/media-template.php:900
 #: wp-includes/media-template.php:967
 msgid "Alternative Text"
@@ -12880,8 +12880,8 @@ msgstr "Barre d’outils"
 msgid "Very dark gray"
 msgstr "Gris foncé"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:70
-#: wp-includes/widgets/class-wp-widget-media-video.php:72
+#: wp-includes/widgets/class-wp-widget-media-audio.php:71
+#: wp-includes/widgets/class-wp-widget-media-video.php:73
 #: wp-includes/media-template.php:1157 wp-includes/media-template.php:1248
 #: wp-includes/js/dist/block-library.js:14458
 #: wp-includes/js/dist/block-library.js:15711
@@ -14168,7 +14168,7 @@ msgstr "Le slug « %s » est déjà utilisé par un autre terme."
 msgid "Could not insert term into the database."
 msgstr "Impossible d’insérer le terme dans la base de données"
 
-#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:182
+#: wp-includes/rest-api/endpoints/class-wp-rest-autosaves-controller.php:183
 msgid "Invalid item ID."
 msgstr "ID d’élément non valide"
 
@@ -14287,7 +14287,7 @@ msgid "of"
 msgstr "sur"
 
 #: wp-includes/script-loader.php:1102
-#: wp-includes/widgets/class-wp-widget-media-image.php:27
+#: wp-includes/widgets/class-wp-widget-media-image.php:28
 #: wp-includes/class-wp-editor.php:1110 wp-includes/js/dist/editor.js:8819
 #: wp-includes/js/dist/block-editor.js:16103
 #: wp-includes/js/dist/block-library.js:10702
@@ -14656,7 +14656,7 @@ msgstr "Action"
 msgid "Letter"
 msgstr "Lettre"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:135
+#: wp-includes/widgets/class-wp-widget-media-image.php:136
 #: wp-includes/media-template.php:1085
 #: wp-includes/js/dist/block-library.js:10392
 msgid "Link Rel"
@@ -14702,8 +14702,8 @@ msgstr "Arrière-plan"
 msgid "Align"
 msgstr "Alignement"
 
-#: wp-includes/widgets/class-wp-widget-media-audio.php:75
-#: wp-includes/widgets/class-wp-widget-media-video.php:78
+#: wp-includes/widgets/class-wp-widget-media-audio.php:76
+#: wp-includes/widgets/class-wp-widget-media-video.php:79
 #: wp-includes/media-template.php:1172 wp-includes/media-template.php:1263
 #: wp-includes/js/dist/block-library.js:14454
 #: wp-includes/js/dist/block-library.js:15699
@@ -15782,7 +15782,7 @@ msgstr "Extension :"
 msgid "Default"
 msgstr "Valeur par défaut"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:82
+#: wp-includes/widgets/class-wp-widget-media-image.php:83
 #: wp-includes/media-template.php:1039 wp-includes/class-wp-editor.php:1222
 #: wp-includes/js/dist/block-library.js:10348
 msgid "Height"
@@ -15874,7 +15874,7 @@ msgstr "<strong>ERREUR</strong> : cette adresse de messagerie est déjà utilis
 msgid "<strong>ERROR</strong>: Please enter a username."
 msgstr "<strong>ERREUR</strong> : veuillez renseigner l’identifiant."
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:76
+#: wp-includes/widgets/class-wp-widget-media-image.php:77
 #: wp-includes/media-template.php:1039 wp-includes/class-wp-editor.php:1223
 #: wp-includes/js/dist/block-library.js:10341
 #: wp-includes/js/dist/format-library.js:706
@@ -16081,7 +16081,7 @@ msgstr "Modifier l’image"
 msgid "Link URL"
 msgstr "Cible du lien"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:89
+#: wp-includes/widgets/class-wp-widget-media-image.php:90
 #: wp-includes/media-template.php:447 wp-includes/media-template.php:639
 #: wp-includes/media-template.php:910 wp-includes/media-template.php:977
 #: wp-includes/class-wp-editor.php:1224
@@ -16092,7 +16092,7 @@ msgstr "Légende"
 msgid "Alignment"
 msgstr "Alignement"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:70
+#: wp-includes/widgets/class-wp-widget-media-image.php:71
 #: wp-includes/media-template.php:743 wp-includes/media-template.php:821
 #: wp-includes/media-template.php:1004
 msgid "Size"
@@ -16420,7 +16420,7 @@ msgctxt "noun"
 msgid "Comment"
 msgstr "Commentaire"
 
-#: wp-includes/widgets/class-wp-widget-media-image.php:111
+#: wp-includes/widgets/class-wp-widget-media-image.php:112
 #: wp-includes/media-template.php:1123 wp-includes/media-template.php:1207
 #: wp-includes/media.php:3635 wp-includes/media.php:4164
 #: wp-includes/customize/class-wp-customize-nav-menu-item-control.php:92

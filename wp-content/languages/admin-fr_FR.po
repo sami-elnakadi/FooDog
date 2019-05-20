@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development - Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-05-14 08:13:01+0000\n"
+"PO-Revision-Date: 2019-05-16 11:54:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -356,12 +356,12 @@ msgstr "Désolé, vous n’avez pas l’autorisation d’effectuer cette action.
 #. translators: 1: Name of the constant used. 2: List of hostnames whitelisted.
 #: wp-admin/includes/class-wp-site-health.php:1612
 msgid "HTTP requests have been blocked by the %1$s constant, with some hosts whitelisted: %2$s."
-msgstr "Les requêtes HTTP ont été bloquées par la constante %1$s, avec certains hébergeurs en liste blanche : %2$s."
+msgstr "Les requêtes HTTP ont été bloquées par la constante %1$s, avec certains hôtes en liste blanche : %2$s."
 
 #. translators: %s: Name of the constant used.
 #: wp-admin/includes/class-wp-site-health.php:1597
 msgid "HTTP requests have been blocked by the %s constant, with no allowed hosts."
-msgstr "Les requêtes HTTP ont été bloquées par la constante %s, avec aucun hébergeur autorisé."
+msgstr "Les requêtes HTTP ont été bloquées par la constante %s, avec aucun hôte autorisé."
 
 #. translators: 1: The name of the drop-in. 2: The name of the database engine.
 #: wp-admin/includes/class-wp-site-health.php:997
@@ -478,7 +478,7 @@ msgstr "Il existe une nouvelle version disponible de %1$s, mais elle ne fonction
 
 #: wp-admin/includes/class-wp-plugins-list-table.php:879
 msgid "This plugin failed to load properly and is paused during recovery mode."
-msgstr "Cette extension n’a pas pu se charger correctement et à été mise en pause dans le cadre du mode de récupération."
+msgstr "Cette extension n’a pas pu se charger correctement et a été mise en pause dans le cadre du mode de récupération."
 
 #: wp-admin/includes/theme.php:910
 msgid "Go to the Themes screen"
@@ -695,7 +695,7 @@ msgstr "Les mises à jour d’arrière-plan fonctionnent"
 #. translators: %s: The name of the failed cron event.
 #: wp-admin/includes/class-wp-site-health.php:1423
 msgid "The scheduled event, %s, failed to run. Your site still works, but this may indicate that scheduling posts or automated updates may not work as intended."
-msgstr "L’évènement planifié %s à échoué. Vous site fonctionne toujours mais cela pourrait indiquer que les publications planifiées ou les mises à jour automatiques ne fonctionnent pas comme elles le devraient."
+msgstr "L’évènement planifié %s a échoué. Votre site fonctionne toujours, mais cela pourrait indiquer que les publications planifiées ou les mises à jour automatiques ne fonctionnent pas comme elles le devraient."
 
 #: wp-admin/includes/class-wp-site-health.php:1417
 msgid "A scheduled event has failed"
@@ -3544,7 +3544,7 @@ msgstr "Les nouveaux utilisateurs reçoivent automatiquement un mot de passe, qu
 #: wp-admin/includes/update.php:815
 msgctxt "plugin"
 msgid "%s was successfully deleted."
-msgstr "%s a bien été supprimé."
+msgstr "%s a bien été supprimée."
 
 #: wp-admin/plugins.php:440
 msgid "The search for installed plugins will search for terms in their name, description, or author."

@@ -264,9 +264,7 @@ th {
 	padding: 0;
 	text-align: left;
 }
-header{
-	background-color:#FFFFFF !important;
-}
+
 /*--------------------------------------------------------------
 # Typography
 --------------------------------------------------------------*/
@@ -380,7 +378,7 @@ html {
 }
 
 body {
-	background: #FFFFFF; /* Fallback for when there is no custom background color defined. */
+	background: #f2f2f2; /* Fallback for when there is no custom background color defined. */
 	overflow-x: hidden;
 }
 
@@ -625,8 +623,7 @@ a:active {
 }
 
 .navbar-nav {
-	margin-right: 28vw;
-	margin-bottom:0;
+	margin: 0;
 }
 
 .main-navigation ul {
@@ -1145,10 +1142,6 @@ body .search-form .search-submit {
 	text-align: left;
 }
 
-.site-title{
-	font-size:5em !important;
-}
-
 .site-branding .site-title {
 	font-size: 2em;
 	font-weight: 800;
@@ -1554,7 +1547,10 @@ article,
 article.tag-success,
 .widget {
 	background-color: #fff;
-
+	border: 1px solid #ccc;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 	box-shadow: none;
 	padding: 30px;
 }

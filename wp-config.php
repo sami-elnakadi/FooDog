@@ -22,7 +22,7 @@
 define( 'DB_NAME', 'FooDog' );
 
 /** Utilisateur de la base de données MySQL. */
-define( 'DB_USER', 'sami' );
+define( 'DB_USER', 'massart' );
 
 /** Mot de passe de la base de données MySQL. */
 define( 'DB_PASSWORD', 'user' );
@@ -49,14 +49,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define( 'AUTH_KEY',         '^TAsBbn-a&:TJY!.?]LY7t|zD?)t[ZTY8:) 3O_Yd#B0UzTv6U.2)&eM{APn;aDd' );
-define( 'SECURE_AUTH_KEY',  'fTL>W..@]vDUj%ySnHrbIug1h!93AtS]mQNGB $Aw({^|0}s#TSyj=VUO0z}(>gX' );
-define( 'LOGGED_IN_KEY',    'zy^|A)y=C55!vbk}8^<?;Jt){X$hC.<q}}^,Tc@T19y~(E]Gu/I2v:fNrDK;/<wI' );
-define( 'NONCE_KEY',        'a]dxL{%ENKyA!sQfUi 9zW;]d-t47&GAhfiYm>@HYKT:D%8An.FYql3l3C5OK)I^' );
-define( 'AUTH_SALT',        '`*dfi2yfgZ?tv>r;cP;B(%rCi_#A8$T#nQ}s+*0;UC|8&nl}~EJ[u&lmC)za,$5[' );
-define( 'SECURE_AUTH_SALT', 'js9K1]y]gB/~i@?823:(bwc3`T^J@X`&dzIs&Hi|?tU2b{9yo+UJ$2Pg7z2v,R$9' );
-define( 'LOGGED_IN_SALT',   'iR)om[kbV53^O~MR`w;^RZ$Eb{AxJ4;R{0{n2PE}d=Dl^K3qYz?q^2S>Je+(=~1O' );
-define( 'NONCE_SALT',       'J[[*9:5$sdt&u^|z.|S#ycP>8SBIL24,}d5r0(@juan_c!$:496>8jFX}8/jNb|N' );
+define( 'AUTH_KEY',         '=Pd<}<7jxA8#4OJjElBk]/Cc@MN*#R!S$4}I@2xUZHIB7Qp)o~=Vz.>< :D3K$q)' );
+define( 'SECURE_AUTH_KEY',  '2N;,u[/gBKeea(mqpNAzf*Rc^K-d)/PCxXC9ET -2W=4{H)bIA#,0a9r_V4J.g{*' );
+define( 'LOGGED_IN_KEY',    'j`t9E287~kX49^4}viGiJHS])|EQ4%CR^_<hyFHY4F*_cDj)V)87nW[!;fwD7fEt' );
+define( 'NONCE_KEY',        'r gUrEIP9Z3JihNV=D~mnn>5+(+aj},oJsI<XfY3}wHrS<kME.!Ys?@Sw1I546l>' );
+define( 'AUTH_SALT',        'PS@({t4jL6yFICEl$hwQ >iMpLWCWV&x&#+L>_Cg;&viXZgNU;fS#c*)PZ4$o5/p' );
+define( 'SECURE_AUTH_SALT', '0=R#7sTva%H0x,&Rmf LIQ9hi(qYhnGSL=wkl22>?BS8N[;8,,P[WCRH%5@M0tiO' );
+define( 'LOGGED_IN_SALT',   'Suai2dxJ3*aB0ue}{cm)pHPU$E}}=tQfV2EB|pj=$zLxC)7ML)KoW1_:$prZKPMu' );
+define( 'NONCE_SALT',       '=.Fvok%2KHe;|9#=H;bxCSQt4FU!C*qCfOnT(nU4)uP_inC~!CRxbWHyXHJ~hc^7' );
 /**#@-*/
 
 /**
@@ -92,5 +92,4 @@ if ( !defined('ABSPATH') )
 
 /** Réglage des variables de WordPress et de ses fichiers inclus. */
 require_once(ABSPATH . 'wp-settings.php');
-
 define('FS_METHOD','direct');
