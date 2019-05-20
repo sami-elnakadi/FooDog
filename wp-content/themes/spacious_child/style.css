@@ -28,3 +28,14 @@ a{
     color:#4b4f54 !important;
     font-family: 'Raleway', sans-serif;
 }
+
+.header-nav-wrapper{
+    box-shadow: 0px 0px; 
+}
+body, .site-header, .header-top-nav, .header-nav-wrapper, .search-menu .search-form{
+    background-color: #fff !important;
+}
+#site-navigation .col-sm-12 .navbar-toggleable-xs{
+    float: none;
+    border-bottom: 1px solid #ccc;
+}  
