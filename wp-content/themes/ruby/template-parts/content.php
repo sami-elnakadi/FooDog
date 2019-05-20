@@ -31,14 +31,8 @@
 		endif; ?>
 	</header><!-- .entry-header -->
 
-	<div class="post-thumbnail">
-		<?php the_post_thumbnail( 'ruby-featured', array( 'class' => 'featured-image' ) ); ?>
-	</div><!-- .post-thumbnail -->
-
-	<div class="entry-content">
-		<?php ruby_archive_content(); ?>
-	</div><!-- .entry-content -->
-
+	<?php echo do_shortcode("[pt_view id=121f795ft7]"); ?>
+	
 	<footer class="entry-footer">
 		<?php ruby_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
