@@ -8,7 +8,11 @@ Version: 1.0
 */
 
 a{
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', serif !important;
+}
+
+a:hover{
+    border-bottom: #c3512f !important;
 }
 
 .main-navigation .navbar-nav a{
@@ -39,3 +43,10 @@ body, .site-header, .header-top-nav, .header-nav-wrapper, .search-menu .search-f
     float: none;
     border-bottom: 1px solid #ccc;
 }  
+.pt-cv-meta-fields a  {
+    color: #c3512f !important;
+}
+
+.panel-body{
+    border: none !important;
+}

@@ -17,36 +17,9 @@ get_header(); ?>
 <div id="primary" class="content-area <?php echo ruby_primary_content_bootstrap_classes(); ?>">
 	<main id="main" class="site-main" role="main">
 
-	<?php
-	if ( have_posts() ) :
-
-		if ( is_home() && ! is_front_page() ) : ?>
-			<header>
-				<h1 class="as page-title screen-reader-text"><?php single_post_title(); ?></h1>
-			</header>
-
-		<?php
-		endif;
-
-		/* Start the Loop */
-		while ( have_posts() ) : the_post();
-
-			/*
-			 * Include the Post-Format-specific template for the content.
-			 * If you want to override this in a child theme, then include a file
-			 * called content-___.php (where ___ is the Post Format name) and that will be used instead.
-			 */
-			get_template_part( 'template-parts/content', get_post_format() );
-
-		endwhile;
-
-		ruby_the_posts_pagination();
-
-	else :
-
-		get_template_part( 'template-parts/content', 'none' );
-
-	endif; ?>
+	<?php echo do_shortcode("[pt_view id=121f795ft7]"); ?>
+	<?php echo do_shortcode("[pt_view id=1d17acfe2a]"); ?>
+	<?php echo do_shortcode("[pt_view id=8fb4cb7yts]"); ?>
 
 	</main><!-- #main -->
 </div><!-- #primary -->
