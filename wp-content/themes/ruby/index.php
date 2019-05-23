@@ -18,7 +18,9 @@ get_header(); ?>
 	<main id="main" class="site-main" role="main">
 
 	<?php echo do_shortcode("[pt_view id=121f795ft7]"); ?>
+	<b>Featured posts</b>
 	<?php echo do_shortcode("[pt_view id=1d17acfe2a]"); ?>
+	<b>Latest posts</b>
 	<?php echo do_shortcode("[pt_view id=8fb4cb7yts]"); ?>
 
 	</main><!-- #main -->
