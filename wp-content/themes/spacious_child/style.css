@@ -52,12 +52,9 @@ body, .site-header, .header-top-nav, .header-nav-wrapper, .search-menu .search-f
 }
 
 .apsc-theme-3 .apsc-each-profile a{
-    width: 20vw;
+    width: 23vw;
+    height: 6vh;
     border-radius: 0 !important;
-}
-
-.apsc-theme-3 .social-icon{
-    margin-right: 50px !important;
 }
 
 .apsc-theme-3 .apsc-count{
