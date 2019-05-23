@@ -36,9 +36,7 @@ a:hover{
 .header-nav-wrapper{
     box-shadow: 0px 0px; 
 }
-body, .site-header, .header-top-nav, .header-nav-wrapper, .search-menu .search-form{
-    background-color: #fff !important;
-}
+
 #site-navigation .col-sm-12 .navbar-toggleable-xs{
     float: none;
     border-bottom: 1px solid #ccc;
@@ -60,4 +58,18 @@ body, .site-header, .header-top-nav, .header-nav-wrapper, .search-menu .search-f
 .apsc-theme-3 .apsc-count{
     background: none !important;
     color: white;
+}
+
+.pt-cv-wrapper .pagination>li>a, .pt-cv-wrapper .pagination>li>span{
+    border-radius: 30px !important;
+    color: #808080;
+}
+
+.pt-cv-wrapper .pagination>li>a:hover, .pt-cv-wrapper .pagination>li>span:hover{
+    background-color: #363839;
+    color:white;
+}
+
+.pt-cv-wrapper .text-left{
+    text-align: center !important;
 }

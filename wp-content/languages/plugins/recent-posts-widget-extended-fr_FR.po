@@ -1,0 +1,252 @@
+# Translation of Plugins - Recent Posts Widget Extended - Stable (latest release) in French (France)
+# This file is distributed under the same license as the Plugins - Recent Posts Widget Extended - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-04-12 11:10:18+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: fr\n"
+"Project-Id-Version: Plugins - Recent Posts Widget Extended - Stable (latest release)\n"
+
+#. Author URI of the plugin/theme
+msgid "https://www.theme-junkie.com/"
+msgstr "https://www.theme-junkie.com/"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.theme-junkie.com/plugins/recent-posts-widget-extended/"
+msgstr "http://www.theme-junkie.com/plugins/recent-posts-widget-extended/"
+
+#. Author of the plugin/theme
+msgid "Satrya"
+msgstr "Satrya"
+
+#. Description of the plugin/theme
+msgid "Enables advanced widget that gives you total control over the output of your site’s most recent Posts."
+msgstr "Active un widget avancé qui vous donne un contrôle total sur l’affichage de vos articles les plus récents de votre site."
+
+#. Plugin Name of the plugin/theme
+msgid "Recent Posts Widget Extended"
+msgstr "Recent Posts Widget Extended"
+
+#: includes/functions.php:192
+msgid "1 Comment"
+msgstr "1 Commentaire"
+
+#: includes/functions.php:190
+msgid "%s Comments"
+msgstr "%s commentaires"
+
+#: includes/functions.php:188
+msgid "No Comments"
+msgstr "0 commentaire"
+
+#: includes/functions.php:175 includes/functions.php:181
+msgid "%s ago"
+msgstr "il y a %s"
+
+#: includes/functions.php:170
+msgid "Permalink to %s"
+msgstr "Lien vers %s"
+
+#: includes/functions.php:48
+msgid "Read More &raquo;"
+msgstr "Lire la suite..."
+
+#: includes/functions.php:22
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: includes/form.php:293
+msgid "If you turn off the default styles, you can use these css code to customize the recent posts style."
+msgstr "Si vous désactivez les styles par défaut, vous pouvez utilisez les codes css pour personnaliser le style des articles récents."
+
+#: includes/form.php:290
+msgid "Custom CSS"
+msgstr "CSS personnalisée"
+
+#: includes/form.php:284
+msgid "Use Default Styles"
+msgstr "Utilisez les styles par défaut"
+
+#: includes/form.php:272
+msgid "Use Relative Date. eg: 5 days ago"
+msgstr "Utiliser la Date Relative ex : il y a 5 jours"
+
+#: includes/form.php:265
+msgid "Display Modification Date"
+msgstr "Afficher la date de modification "
+
+#: includes/form.php:258
+msgid "Display Date"
+msgstr "Afficher la date"
+
+#: includes/form.php:251
+msgid "Display Comment Count"
+msgstr "Afficher le Nombre de commentaires"
+
+#: includes/form.php:243
+msgid "Readmore Text"
+msgstr "Texte Lire la suite"
+
+#: includes/form.php:237
+msgid "Display Readmore"
+msgstr "Afficher Lire la suite"
+
+#: includes/form.php:229
+msgid "Excerpt Length"
+msgstr "Longueur de l’extrait"
+
+#: includes/form.php:223
+msgid "Display Excerpt"
+msgstr "Afficher l'extrait"
+
+#: includes/form.php:215
+msgid "Leave it blank to disable."
+msgstr "Laissez ce champ vide pour désactiver."
+
+#: includes/form.php:212
+msgid "Default Thumbnail"
+msgstr "Miniature par défaut"
+
+#: includes/form.php:206
+msgid "Center"
+msgstr "Centre"
+
+#: includes/form.php:205
+msgid "Right"
+msgstr "Droite"
+
+#: includes/form.php:204
+msgid "Left"
+msgstr "Gauche"
+
+#: includes/form.php:199
+msgid "Thumbnail (height,width,align)"
+msgstr "Miniature (hauteur,largeur,alignement)"
+
+#: includes/form.php:193
+msgid "Display Thumbnail"
+msgstr "Afficher la miniature"
+
+#: includes/form.php:185
+msgid "The number of posts to skip"
+msgstr "Le nombre d'articles à ignorer"
+
+#: includes/form.php:175
+msgid "Number of posts to show"
+msgstr "Nombre d’articles à afficher"
+
+#: includes/form.php:166
+msgid "Available: "
+msgstr "Disponible :"
+
+#: includes/form.php:165
+msgid "Ex: category=1,2,4&amp;post_tag=6,12"
+msgstr "Ex : category=1,2,4&amp;post_tag=6,12"
+
+#: includes/form.php:162
+msgid "Limit to Taxonomy"
+msgstr "Limiter à la taxonomie"
+
+#: includes/form.php:146
+msgid "Limit to Tag"
+msgstr "Limiter à l’étiquette "
+
+#: includes/form.php:130
+msgid "Limit to Category"
+msgstr "Limiter à la catégorie"
+
+#: includes/form.php:124
+msgid "Menu Order"
+msgstr "Ordre du menu"
+
+#: includes/form.php:123
+msgid "Comment Count"
+msgstr "Décompte des commentaires"
+
+#: includes/form.php:122
+msgid "Random"
+msgstr "Au hasard"
+
+#: includes/form.php:121
+msgid "Modified"
+msgstr "Modifié"
+
+#: includes/form.php:120
+msgid "Date"
+msgstr "Date"
+
+#: includes/form.php:118
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/form.php:117
+msgid "ID"
+msgstr "ID"
+
+#: includes/form.php:114
+msgid "Orderby"
+msgstr "Ordonner par"
+
+#: includes/form.php:108
+msgid "Ascending"
+msgstr "Croissant"
+
+#: includes/form.php:107
+msgid "Descending"
+msgstr "Décroissant"
+
+#: includes/form.php:104
+msgid "Order"
+msgstr "Trier"
+
+#: includes/form.php:93
+msgid "Post Status"
+msgstr "État d’article"
+
+#: includes/form.php:77
+msgid "Post Types"
+msgstr "Types d’article"
+
+#: includes/form.php:71
+msgid "Exclude current post"
+msgstr "Exclure l'article actuel"
+
+#: includes/form.php:64
+msgid "Ignore sticky posts"
+msgstr "Ignorer les articles épinglés"
+
+#: includes/form.php:52
+msgid "HTML or text after the recent posts"
+msgstr "HTML ou texte après les articles récents"
+
+#: includes/form.php:45
+msgid "HTML or text before the recent posts"
+msgstr "HTML ou texte avant les articles récents"
+
+#: includes/form.php:38
+msgid "CSS Class"
+msgstr "Classe CSS"
+
+#: includes/form.php:31
+msgid "CSS ID"
+msgstr "ID CSS"
+
+#: includes/form.php:24
+msgid "Title URL"
+msgstr "URL du titre"
+
+#: includes/form.php:17 includes/form.php:119
+msgid "Title"
+msgstr "Titre"
+
+#: classes/widget.php:36
+msgid "Recent Posts Extended"
+msgstr "Recent Posts Extended"
+
+#: classes/widget.php:24
+msgid "An advanced widget that gives you total control over the output of your site’s most recent Posts."
+msgstr "Un widget de pointe qui vous donne un contrôle total sur l'affichage des derniers billets de votre site."
