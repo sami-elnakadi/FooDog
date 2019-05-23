@@ -168,8 +168,8 @@
 
 
 		// Show or hide search in nav menu
-		$( '#site-navigation .menu-item.search-menu span' ).click( function( event ) {
-			$( '#site-navigation .menu-item .search-form' ).slideToggle( 'fast' );
+		$( '#top-navigation .menu-item.search-menu span' ).click( function( event ) {
+			$( '#top-navigation .menu-item .search-form' ).slideToggle( 'fast' );
 			event.preventDefault();
 			event.stopPropagation();
 			return false;

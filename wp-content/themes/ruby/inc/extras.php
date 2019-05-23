@@ -263,7 +263,7 @@ function ruby_woomenucart( $menu, $args ) {
 	}
 
 	// Adds a serach form to a menu assigned to Primary Navigation Menu location
-	if ( 'primary' == $args->theme_location && get_theme_mod( 'ruby_search_form_in_header', 1 ) ) {
+	if ( 'header' == $args->theme_location && get_theme_mod( 'ruby_search_form_in_header', 1 ) ) {
 
 		$menu_item = '<li class="menu-item search-menu"><span><i class="fa fa-search"></i></span>';
 
