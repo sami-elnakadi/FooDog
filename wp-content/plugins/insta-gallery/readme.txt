@@ -60,6 +60,11 @@ This error visible sometimes in PHP 7+ installations due to the missing CURL ext
 
 == Changelog ==
 
+= 2.3.1 =
+* Fix. Reload on Instagram token removal
+* Fix. Show Instagram token even if user profile id is empty
+* Fix. Undefined Instagram username
+
 = 2.3.0 =
 * Improvement. Instagram token generation simplified
 * Improvement. Instagram Gallery settings consistency 

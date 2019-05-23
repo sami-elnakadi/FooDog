@@ -356,8 +356,8 @@
           $tr.fadeOut();
 
           setTimeout(function () {
-            $tr.remove();
-          }, 600);
+            window.location.href = window.location.href;
+          }, 300);
 
         } else {
           alert(response.data);

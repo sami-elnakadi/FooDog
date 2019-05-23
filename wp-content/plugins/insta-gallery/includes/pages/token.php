@@ -39,28 +39,27 @@ if (!defined('ABSPATH'))
     <tbody>
       <?php
       foreach ($qligg as $id => $access_token) {
-        if ($profile_info = qligg_get_user_profile($id)) {
-          ?>
-          <tr>
-            <td class="profile-picture"><img src="<?php echo esc_url($profile_info['profile_picture']); ?>" width="30" /></td>
-            <td><?php echo esc_attr($id); ?></td>
-            <td>@<?php echo esc_html($profile_info['username']); ?></td>
-            <td><?php echo esc_html($profile_info['full_name']); ?></td>
-            <td>
-              <input id="<?php echo esc_attr($id); ?>-access-token" type="text" value="<?php echo esc_attr($access_token); ?>" readonly />
-            </td>
-            <td>
-              <a data-qligg-copy="#<?php echo esc_attr($id); ?>-access-token" href="#" class="btn-instagram">
-                <span class="dashicons dashicons-edit"></span><?php _e('Copy', 'insta-gallery'); ?>
-              </a>
-              <a href="#" data-item_id="<?php echo esc_attr($id); ?>" class="btn-instagram ig-remove-token">
-                <span class="dashicons dashicons-trash"></span><?php _e('Delete', 'insta-gallery'); ?>
-              </a>
-              <span class="spinner"></span>
-            </td>
-          </tr>
-          <?php
-        }
+        $profile_info = qligg_get_user_profile($id);        
+        ?>
+        <tr>
+          <td class="profile-picture"><img src="<?php echo esc_url($profile_info['profile_picture']); ?>" width="30" /></td>
+          <td><?php echo esc_attr($id); ?></td>
+          <td>@<?php echo esc_html($profile_info['username']); ?></td>
+          <td><?php echo esc_html($profile_info['full_name']); ?></td>
+          <td>
+            <input id="<?php echo esc_attr($id); ?>-access-token" type="text" value="<?php echo esc_attr($access_token); ?>" readonly />
+          </td>
+          <td>
+            <a data-qligg-copy="#<?php echo esc_attr($id); ?>-access-token" href="#" class="btn-instagram">
+              <span class="dashicons dashicons-edit"></span><?php _e('Copy', 'insta-gallery'); ?>
+            </a>
+            <a href="#" data-item_id="<?php echo esc_attr($id); ?>" class="btn-instagram ig-remove-token">
+              <span class="dashicons dashicons-trash"></span><?php _e('Delete', 'insta-gallery'); ?>
+            </a>
+            <span class="spinner"></span>
+          </td>
+        </tr>
+        <?php
       }
       ?>
     </tbody>
@@ -119,7 +118,7 @@ if (!defined('ABSPATH'))
           <span class="spinner"></span>
           <button  type="submit" class="btn-instagram secondary"><?php _e('Update', 'insta-gallery'); ?></button>
           <span class="description">
-            <?php //_e('Update settings and copy/paste generated shortcode in your post/pages or go to Widgets and use Instagram Gallery widget', 'insta-gallery'); ?>
+            <?php //_e('Update settings and copy/paste generated shortcode in your post/pages or go to Widgets and use Instagram Gallery widget', 'insta-gallery');  ?>
           </span>
         </td>
       </tr>

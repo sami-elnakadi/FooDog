@@ -83,24 +83,21 @@
   animation: insta-gallery-spin 4s linear infinite;
 }
 .insta-gallery-items .ig-item {
-  box-sizing: border-box;
+  overflow: hidden;
+  display: block;
+  line-height: 0;
 }
 .insta-gallery-items .ig-item a {
   display: block;
   position: relative;
   text-align: center;
-  overflow: hidden;
-  width: 100%;
-  padding-top: 100%;
 }
 .insta-gallery-items .ig-item a img {
   transition: all .3s;
+  width: 100%;
+  height: auto;
   overflow: hidden;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  vertical-align: middle;
 }
 .insta-gallery-items .ig-item a .insta-gallery-image-mask {
   position: absolute;
@@ -116,14 +113,7 @@
   width: 100%;
   height: 100%;
 }
-.insta-gallery-items .ig-item a:hover .ig-gallery-image-mask-content {
-  opacity: 1;
-}
-.insta-gallery-items .ig-item a:hover .insta-gallery-image-mask {
-  opacity: 1;
-  transition: all 0.5s ease-out;
-}
-.insta-gallery-items .ig-gallery-image-mask-content {
+.insta-gallery-items .ig-item a .insta-gallery-image-mask-content {
   position: absolute;
   top: 50%;
   left: 0px;
@@ -138,17 +128,24 @@
   font-size: 18px;
   text-align: center;
 }
-.insta-gallery-items .ig-gallery-image-mask-content > span {
+.insta-gallery-items .ig-item a .insta-gallery-image-mask-content > span {
   padding: 0 8px;
   font-size: 15px;
   font-weight: 600;
   vertical-align: middle;
   line-height: 20px;
 }
-.insta-gallery-items .ig-gallery-image-mask-content > span > svg {
+.insta-gallery-items .ig-item a .insta-gallery-image-mask-content > span > svg {
   height: 12px;
   width: 12px;
   margin-right: 6px;
+}
+.insta-gallery-items .ig-item a:hover .insta-gallery-image-mask-content {
+  opacity: 1;
+}
+.insta-gallery-items .ig-item a:hover .insta-gallery-image-mask {
+  opacity: 1;
+  transition: all 0.5s ease-out;
 }
 .insta-gallery-items[data-type=carousel] .ig-item,
 .insta-gallery-items[data-type=gallery] .ig-item {
@@ -168,6 +165,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 100%;
 }
 .insta-gallery-items[data-type=carousel] .ig-item a img,
 .insta-gallery-items[data-type=gallery] .ig-item a img {
@@ -175,6 +175,11 @@
   object-fit: cover;
   width: 100%;
   height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 .insta-gallery-items[data-type=carousel] .swiper-wrapper {
   display: flex;
@@ -229,29 +234,38 @@
     min-width: 50%;
   }
 }
-.insta-gallery-items[data-type=masonryv] {
-  display: flex;
-  flex-flow: column wrap;
-  counter-reset: brick;
-  margin-left: -8px;
-  /* Adjustment for the gutter */
-  width: 100%;
+.insta-gallery-items[data-type=masonry] {
+  column-count: 3;
+  column-gap: 0;
 }
 @media screen and (max-width: 1023px) and (min-width: 768px) {
-  .insta-gallery-items[data-type=masonryv] .ig-item {
-    min-width: 33.333%;
-  }
 }
 @media screen and (max-width: 767px) {
-  .insta-gallery-items[data-type=masonryv] .ig-item {
-    min-width: 33.333%;
+  .insta-gallery-items[data-type=masonry] .ig-item {
+    column-count: 2;
   }
 }
 @media screen and (max-width: 480px) {
-  .insta-gallery-items[data-type=masonryv] .ig-item {
-    min-width: 50%;
+  .insta-gallery-items[data-type=masonry] .ig-item {
+    column-count: 1;
   }
 }
+/* ---------------------------------------------------------------------------
+
+&[data-type=masonryh] {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+
+  .ig-item {
+    flex: auto;
+    height: 250px;
+    min-width: 150px;
+    overflow: hidden;
+
+  }
+
+}*/
 .instagal-ie-8 .ig-spinner {
   display: none;
 }

@@ -15,6 +15,9 @@ $igs_frontend = array(
 <style>
 <?php
 if (!empty($instagram_item['insta_spacing'])) {
+  echo "#{$item_selector} .insta-gallery-items {margin: 0 -{$item_spacing}px;}";
+}
+if (!empty($instagram_item['insta_spacing'])) {
   echo "#{$item_selector} .insta-gallery-items .ig-item {padding: {$item_spacing}px;}";
 }
 if (!empty($instagram_item['insta_hover-color'])) {

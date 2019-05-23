@@ -6,7 +6,6 @@ if (!defined('ABSPATH'))
 if (!class_exists('QLIGG_AJAX')) {
 
   class QLIGG_AJAX {
-    
 
     protected static $instance;
 
@@ -99,7 +98,7 @@ if (!class_exists('QLIGG_AJAX')) {
 
       if (!empty($_REQUEST) && check_admin_referer('qligg_generate_token', 'ig_nonce')) {
 
-        if (empty($_REQUEST['item_id'])) {
+        if (!isset($_REQUEST['item_id'])) {
           wp_send_json_error(__('Invalid item id', 'insta-gallery'));
         }
 

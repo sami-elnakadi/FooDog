@@ -72,54 +72,71 @@
 
   // Masonry Vertical
   // ---------------------------------------------------------------------------
-  /*function add_insta_gallery_masonryv($item) {
-   
-   var $wrap = $('.insta-gallery-items', $item),
-   options = $wrap.data('igfs');
-   
-   if ($wrap.data('type') == 'masonryv') {
-   
-   //imagesLoaded($wrap, function (e) {
-   
-   var g = $wrap,
-   gc = document.querySelectorAll('.ig-item'),
-   $images = $wrap.find('img.insta-gallery-image'),
-   gcLength = gc.length, // Total number of cells in the masonry
-   gHeight = 0, // Initial height of our masonry
-   gridGutter = 0,
-   dGridCol = 3,
-   tGridCol = 2,
-   mGridCol = 1,
-   i; // Loop counter
-   if ($images.length) {
-   
-   var images = $images.length, loaded = 0;
-   
-   $images.load(function (e) {
-   loaded++;
-   
-   if (loaded >= images) {
-   
-   // Calculate the net height of all the cells in the masonry
-   for (i = 0; i < gcLength; ++i) {
-   gHeight += gc[i].offsetHeight + parseInt(gridGutter);
-   }
-   
-   if (window.screen.width >= 1024) {
-   $wrap.css({'height': gHeight / dGridCol + gHeight / (gcLength + 1) + "px"});
-   console.log(gHeight / dGridCol + gHeight / (gcLength + 1) + "px");
-   } else if (window.screen.width < 1024 && window.screen.width >= 768) {
-   $wrap.css({'height': gHeight / tGridCol + gHeight / (gcLength + 1) + "px"});
-   } else {
-   $wrap.css({'height': gHeight / mGridCol + gHeight / (gcLength + 1) + "px"});
-   }
-   }
-   });
-   }
-   //});
-   }
-   
-   }*/
+  function add_insta_gallery_masonry($item) {
+
+    var $wrap = $('.insta-gallery-items', $item),
+            options = $wrap.data('igfs');
+
+    if ($wrap.data('type') == 'masonry') {
+
+      var breakpoints = {
+        420: {
+          slidesPerView: 1,
+          spaceBetween: 2,
+        },
+        767: {
+          slidesPerView: Math.min(2, options.slides)
+        },
+        1023: {
+          slidesPerView: Math.min(3, options.slides)
+        }
+      };
+
+      var g = $wrap,
+              gc = document.querySelectorAll('.ig-item'),
+              $images = $wrap.find('img.insta-gallery-image'),
+              gcLength = gc.length, // Total number of cells in the masonry
+              gHeight = 0, // Initial height of our masonry
+              gridGutter = 0,
+              dGridCol = options.columns,
+              tGridCol = 2,
+              mGridCol = 1,
+              //dWidth = Math.round($wrap.width() / $wrap.find('.ig-item')),
+              i; // Loop counter
+
+      if ($images.length) {
+
+        var images = $images.length, loaded = 0;
+
+        $images.load(function (e) {
+          loaded++;
+
+          if (loaded >= images) {
+
+            setTimeout(function () {
+              // Calculate the net height of all the cells in the masonry
+              for (i = 0; i < gcLength; ++i) {
+                gHeight += gc[i].offsetHeight + parseInt(gridGutter);
+              }
+
+              //$wrap.css({'height': gHeight / dWidth + gHeight / (gcLength + 1) + "px", 'display': 'flex'});
+
+              if (window.screen.width >= 1024) {
+                $wrap.css({'height': gHeight / dGridCol + gHeight / (gcLength + 1) + "px", 'display': 'flex'});
+              } else if (window.screen.width < 1024 && window.screen.width >= 768) {
+                $wrap.css({'height': gHeight / tGridCol + gHeight / (gcLength + 1) + "px", 'display': 'flex'});
+              } else {
+                $wrap.css({'height': gHeight / mGridCol + gHeight / (gcLength + 1) + "px", 'display': 'flex'});
+              }
+
+            }, 200);
+          }
+        });
+      }
+      //});
+    }
+
+  }
 
   // Initializing the carousel
   // ---------------------------------------------------------------------------
@@ -297,7 +314,7 @@
           $item.append($(response.data));
 
           add_insta_gallery_carousel($item);
-          //add_insta_gallery_masonryv($item);
+          //add_insta_gallery_masonry($item);
           //add_insta_gallery_resizes($item);
           add_insta_gallery_popup($item);
 

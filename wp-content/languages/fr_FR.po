@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.2.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-05-18 05:06:09+0000\n"
+"PO-Revision-Date: 2019-05-23 05:43:10+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -79,7 +79,7 @@ msgstr "« "
 #. https://secure.php.net/number_format, default is ,
 #: wp-includes/class-wp-locale.php:200
 msgid "number_format_thousands_sep"
-msgstr "number_format_thousands_sep"
+msgstr " "
 
 #. translators: $dec_point argument for https://secure.php.net/number_format,
 #. default is .
@@ -201,7 +201,7 @@ msgstr "[%s] demande de modification de l’e-mail d’administration du réseau
 
 #. translators: Site admin email change notification email subject. %s: Site
 #. title
-#: wp-includes/functions.php:6610
+#: wp-includes/functions.php:6611
 msgid "[%s] Admin Email Changed"
 msgstr "[%s] E-mail d’administration modifié"
 
@@ -689,7 +689,7 @@ msgstr "ID de demande manquant."
 msgid "Usage of the title attribute on the login logo is not recommended for accessibility reasons. Use the link text instead."
 msgstr "L’utilisation de l’attribut title sur le logo de connexion n’est pas recommandée pour des raisons d’accessibilité. Utilisez plutôt le texte du lien."
 
-#: wp-includes/functions.php:7028
+#: wp-includes/functions.php:7029
 msgid "Update PHP"
 msgstr "Mettre à jour PHP"
 
@@ -800,11 +800,11 @@ msgid "%1$s, %2$s"
 msgstr "%1$s, %2$s"
 
 #. translators: %s: default Update PHP page URL
-#: wp-includes/functions.php:6971
+#: wp-includes/functions.php:6972
 msgid "This resource is provided by your web host, and is specific to your site. For more information, <a href=\"%s\" target=\"_blank\">see the official WordPress documentation</a>."
 msgstr "Cette ressource est fournie par votre hébergeur web, et elle est spécifique à votre site. Pour plus d’informations, <a href=\"%s\" target=\"_blank\">veuillez consulter la document officiel de WordPress (ouvre un nouvel onglet)</a>."
 
-#: wp-includes/functions.php:6928
+#: wp-includes/functions.php:6929
 msgctxt "localized PHP upgrade information page"
 msgid "https://wordpress.org/support/update-php/"
 msgstr "https://wordpress.org/support/update-php/"
@@ -3287,7 +3287,7 @@ msgstr "Taille de police personnalisée"
 #: wp-includes/widgets/class-wp-widget-custom-html.php:313
 #: wp-includes/media-template.php:173
 #: wp-includes/customize/class-wp-customize-nav-menu-locations-control.php:59
-#: wp-includes/functions.php:7030
+#: wp-includes/functions.php:7031
 #: wp-includes/class-wp-customize-manager.php:4270
 #: wp-includes/class-wp-customize-manager.php:5572
 #: wp-includes/class-wp-customize-manager.php:5593
@@ -4010,12 +4010,12 @@ msgid "User Requests"
 msgstr "Demandes utilisateur"
 
 #. translators: deleted long text
-#: wp-includes/functions.php:6756
+#: wp-includes/functions.php:6757
 msgid "This content was deleted by the author."
 msgstr "Ce contenu a été supprimé par son auteur."
 
 #. translators: deleted text
-#: wp-includes/functions.php:6752
+#: wp-includes/functions.php:6753
 msgid "[deleted]"
 msgstr "[supprimé]"
 
@@ -4176,7 +4176,7 @@ msgstr "Les miens"
 msgid "Whether or not the post type can be viewed."
 msgstr "Si le type de publication peut être vu ou pas."
 
-#: wp-includes/functions.php:2917
+#: wp-includes/functions.php:2918
 msgid "The link you followed has expired."
 msgstr "Le lien suivi est expiré."
 
@@ -4187,7 +4187,7 @@ msgstr "Vous devez avoir des droits supérieurs."
 
 #: wp-includes/script-loader.php:938 wp-includes/script-loader.php:1435
 #: wp-includes/script-loader.php:1523 wp-includes/script-loader.php:1777
-#: wp-includes/class-wp-xmlrpc-server.php:3884 wp-includes/functions.php:2928
+#: wp-includes/class-wp-xmlrpc-server.php:3884 wp-includes/functions.php:2929
 #: wp-includes/class-wp-customize-manager.php:450
 msgid "Something went wrong."
 msgstr "Une mauvaise manipulation ?"
@@ -4946,7 +4946,7 @@ msgstr "La récupération de la vérification du nonce a échoué. Veuillez rée
 
 #. translators: Do not translate OLD_EMAIL, NEW_EMAIL, SITENAME, SITEURL: those
 #. are placeholders.
-#: wp-includes/functions.php:6593
+#: wp-includes/functions.php:6594
 msgid ""
 "Hi,\n"
 "\n"
@@ -4972,7 +4972,7 @@ msgstr ""
 "De la part de ###SITENAME###\n"
 "###SITEURL###"
 
-#: wp-includes/functions.php:6509
+#: wp-includes/functions.php:6510
 msgid "Only UUID V4 is supported at this time."
 msgstr "Seul le système UUID v4 est reconnu à l’heure actuelle."
 
@@ -5759,7 +5759,7 @@ msgstr ""
 msgid "Suggested image dimensions: %1$s by %2$s pixels."
 msgstr "Dimensions suggérées de l’image : %1$s par %2$s pixels."
 
-#: wp-includes/script-loader.php:1119 wp-includes/functions.php:2353
+#: wp-includes/script-loader.php:1119 wp-includes/functions.php:2354
 #: wp-includes/js/dist/editor.js:14643
 msgid "Sorry, this file type is not permitted for security reasons."
 msgstr "Désolé, ce type de fichier n’est pas autorisé pour des raisons de sécurité."
@@ -8308,15 +8308,15 @@ msgstr "<strong>ERREUR</strong> : identifiant, adresse de messagerie ou mot de 
 
 #. translators: 1: blog name, 2: separator(raquo), 3: term name, 4: taxonomy
 #. singular name
-#: wp-includes/general-template.php:2844
+#: wp-includes/general-template.php:2862
 msgid "%1$s %2$s %3$s %4$s Feed"
 msgstr "Flux pour %1$s %2$s %3$s %4$s"
 
-#: wp-includes/functions.php:6076 wp-includes/js/dist/components.js:34198
+#: wp-includes/functions.php:6077 wp-includes/js/dist/components.js:34198
 msgid "Close dialog"
 msgstr "Fermez la boîte de dialogue"
 
-#: wp-includes/functions.php:4499
+#: wp-includes/functions.php:4500
 msgid "The called constructor method for %1$s in %2$s is <strong>deprecated</strong> since version %3$s! Use %4$s instead."
 msgstr "La méthode du constructeur appelée pour %1$s dans %2$s est <strong>obsolète</strong> depuis la version %3$s ! Utilisez %4$s à la place."
 
@@ -8450,11 +8450,11 @@ msgstr "https://codex.wordpress.org/Debugging_a_WordPress_Network"
 msgid "Read the <a href=\"%s\" target=\"_blank\">bug report</a> page. Some of the guidelines there may help you figure out what went wrong."
 msgstr "Lisez la <a href=\"%s\" target=\"_blank\">page des rapports de bug</a>. Elle contient des bonnes pratiques qui peuvent vous permettre de comprendre ce qui ne marche pas."
 
-#: wp-includes/functions.php:4770
+#: wp-includes/functions.php:4771
 msgid "https://codex.wordpress.org/Debugging_in_WordPress"
 msgstr "https://codex.wordpress.org/fr:Débogage_dans_WordPress"
 
-#: wp-includes/functions.php:4769
+#: wp-includes/functions.php:4770
 msgid "Please see <a href=\"%s\">Debugging in WordPress</a> for more information."
 msgstr "Veuillez lire <a href=\"%s\">Débogage dans WordPress</a> (en) pour plus d’informations."
 
@@ -9248,7 +9248,7 @@ msgstr "L’identifiant ne doit pas faire plus de 60 caractères."
 msgid "The %s directory of the develop repository must be used for RTL."
 msgstr "Le répertoire %s du répertoire de développement doit être utilisé pour le RTL."
 
-#: wp-includes/functions.php:4510
+#: wp-includes/functions.php:4511
 msgid "The called constructor method for %1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "La méthode constructor appelée pour %1$s est <strong>obsolète</strong> depuis la version %2$s ! Veuillez utiliser %3$s à la place."
 
@@ -11419,22 +11419,22 @@ msgstr "Impossible de trouver la chaîne spécifiée."
 msgid "Table"
 msgstr "Tableau"
 
-#: wp-includes/general-template.php:4225
+#: wp-includes/general-template.php:4243
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Café"
 
-#: wp-includes/general-template.php:4213
+#: wp-includes/general-template.php:4231
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Océan"
 
-#: wp-includes/general-template.php:4201
+#: wp-includes/general-template.php:4219
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Ectoplasme"
 
-#: wp-includes/general-template.php:4189
+#: wp-includes/general-template.php:4207
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Lever du soleil"
@@ -11502,17 +11502,17 @@ msgstr "no-subset"
 msgid "Use commas instead of %s to separate excluded terms."
 msgstr "Utilisez des virgules au lieu de %s pour séparer les termes exclus."
 
-#: wp-includes/general-template.php:4177
+#: wp-includes/general-template.php:4195
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Minuit"
 
-#: wp-includes/general-template.php:4153
+#: wp-includes/general-template.php:4171
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Lumineux"
 
-#: wp-includes/general-template.php:4136
+#: wp-includes/general-template.php:4154
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Par défaut"
@@ -11538,7 +11538,7 @@ msgstr "le,la,les,de,des,un,uns,une,unes,et,a,à,il,elle,on,ne,je,tu,nous,vous,i
 msgid "This content is password protected. To view it please enter your password below:"
 msgstr "Cette publication est protégée par un mot de passe. Pour la voir, veuillez saisir votre mot de passe ci-dessous :"
 
-#: wp-includes/functions.php:1384
+#: wp-includes/functions.php:1385
 msgid "ERROR: This is not a valid feed template."
 msgstr "ERREUR : ce n’est pas un flux valide."
 
@@ -11702,7 +11702,7 @@ msgstr "%2$s %1$s %3$s à %4$s h %5$s min"
 msgid "Your session has expired. You can log in again from this page or go to the login page."
 msgstr "Votre session a expiré. Vous pouvez vous reconnecter depuis cette page ou aller à la page de connexion."
 
-#: wp-includes/functions.php:6096
+#: wp-includes/functions.php:6097
 msgid "The login page will open in a new tab. After logging in you can close it and return to this page."
 msgstr "La page de connexion s’ouvrira dans une nouvelle fenêtre. Après connexion, vous pourrez la fermer et revenir à cette page."
 
@@ -11726,7 +11726,7 @@ msgctxt "placeholder"
 msgid "Search &hellip;"
 msgstr "Recherche&hellip;"
 
-#: wp-includes/script-loader.php:1439 wp-includes/functions.php:6094
+#: wp-includes/script-loader.php:1439 wp-includes/functions.php:6095
 msgid "Session expired"
 msgstr "La session a expiré"
 
@@ -12189,7 +12189,7 @@ msgid "Display post date?"
 msgstr "Afficher la date de la publication ?"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post type name
-#: wp-includes/general-template.php:2850
+#: wp-includes/general-template.php:2868
 msgid "%1$s %2$s %3$s Feed"
 msgstr "%1$s %2$s Flux pour %3$s"
 
@@ -12662,7 +12662,7 @@ msgid "Your site at %1$s is active. You may now log in to your site using your c
 msgstr "Votre site est activé à %1$s. Vous pouvez dès maintenant vous connecter à ce site en utilisant l’identifiant choisi « %2$s ». Vous trouverez dans votre messagerie (sur %3$s) un message vous donnant votre mot de passe et identifiant, ainsi que les instructions pour vous connecter. Si vous ne recevez pas d’e-mail, pensez à consulter le dossier « indésirables » de votre client de messagerie. Si vous ne recevez pas votre mot de passe dans moins d’une heure, vous pouvez <a href=\"%4$s\">réinitialiser votre mot de passe</a>."
 
 #. translators: %s: database repair URL
-#: wp-includes/functions.php:1580
+#: wp-includes/functions.php:1581
 msgid "One or more database tables are unavailable. The database may need to be <a href=\"%s\">repaired</a>."
 msgstr "Une ou plusieurs tables de votre base de données sont indisponibles. La base de données a peut-être besoin d’être <a href=\"%s\">réparée</a>."
 
@@ -12749,16 +12749,16 @@ msgstr "<strong>ERREUR</strong> : cette adresse de site est déjà prise."
 msgid "Documentation"
 msgstr "Documentation"
 
-#: wp-includes/general-template.php:4046 wp-includes/formatting.php:3753
+#: wp-includes/general-template.php:4064 wp-includes/formatting.php:3753
 msgid "&hellip;"
 msgstr "&hellip;"
 
-#: wp-includes/wp-db.php:1658 wp-includes/functions.php:4378
+#: wp-includes/wp-db.php:1658 wp-includes/functions.php:4379
 #: wp-includes/ms-load.php:468
 msgid "Error establishing a database connection"
 msgstr "Erreur lors de la connexion à la base de données"
 
-#: wp-includes/functions.php:4378
+#: wp-includes/functions.php:4379
 msgid "Database Error"
 msgstr "Erreur de la base de données"
 
@@ -12810,7 +12810,7 @@ msgstr "Ce fichier n’est pas une image. Veuillez en téléverser un autre."
 msgid "This is larger than the maximum size. Please try another."
 msgstr "Ce fichier est plus grand que la taille maximale. Veuillez en téléverser un autre."
 
-#: wp-includes/general-template.php:4165
+#: wp-includes/general-template.php:4183
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Bleu"
@@ -12948,13 +12948,13 @@ msgid "The user is already active."
 msgstr "Cet utilisateur est déjà activé."
 
 #. translators: %s: version number
-#: wp-includes/functions.php:4765
+#: wp-includes/functions.php:4766
 msgid "(This message was added in version %s.)"
 msgstr "(Ce message a été ajouté à la version %s.)"
 
 #. translators: Developer debugging message. 1: PHP function name, 2:
 #. Explanatory message, 3: Version information message
-#: wp-includes/functions.php:4773
+#: wp-includes/functions.php:4774
 msgid "%1$s was called <strong>incorrectly</strong>. %2$s %3$s"
 msgstr "%1$s est appelée de la mauvaise manière. %2$s %3$s"
 
@@ -14140,7 +14140,7 @@ msgstr "<strong>ERREUR</strong> : WordPress %1$s requiert MySQL %2$s ou une ver
 msgid "Sidebar %d"
 msgstr "Colonne latérale %d"
 
-#: wp-includes/user.php:296 wp-includes/functions.php:6095
+#: wp-includes/user.php:296 wp-includes/functions.php:6096
 msgid "Please log in again."
 msgstr "Veuillez vous reconnecter."
 
@@ -15164,51 +15164,51 @@ msgstr "L’utilisateur a bloqué les requêtes HTTP."
 msgid "Gray"
 msgstr "Gris"
 
-#: wp-includes/general-template.php:3959
+#: wp-includes/general-template.php:3977
 msgid "Next &raquo;"
 msgstr "Suivant »"
 
-#: wp-includes/general-template.php:3958
+#: wp-includes/general-template.php:3976
 msgid "&laquo; Previous"
 msgstr "« Précédent"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: search phrase
-#: wp-includes/general-template.php:2848
+#: wp-includes/general-template.php:2866
 msgid "%1$s %2$s Search Results for &#8220;%3$s&#8221; Feed"
 msgstr "%1$s %2$s Flux de résultats de la recherche pour &quot;%3$s&quot;"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: author name
-#: wp-includes/general-template.php:2846
+#: wp-includes/general-template.php:2864
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s Flux des articles écrits par %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: tag name
-#: wp-includes/general-template.php:2842
+#: wp-includes/general-template.php:2860
 msgid "%1$s %2$s %3$s Tag Feed"
 msgstr "%1$s %2$s Flux de l’étiquette %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: category name
-#: wp-includes/general-template.php:2840
+#: wp-includes/general-template.php:2858
 msgid "%1$s %2$s %3$s Category Feed"
 msgstr "%1$s %2$s Flux de la catégorie %3$s"
 
 #. translators: 1: blog name, 2: separator(raquo), 3: post title
-#: wp-includes/general-template.php:2838
+#: wp-includes/general-template.php:2856
 msgid "%1$s %2$s %3$s Comments Feed"
 msgstr "%1$s %2$s %3$s Flux des commentaires"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:2798
+#: wp-includes/general-template.php:2816
 msgid "%1$s %2$s Comments Feed"
 msgstr "%1$s %2$s Flux des commentaires"
 
 #. translators: 1: blog title, 2: separator (raquo)
-#: wp-includes/general-template.php:2796
+#: wp-includes/general-template.php:2814
 msgid "%1$s %2$s Feed"
 msgstr "%1$s %2$s Flux"
 
 #. translators: Separator between blog name and feed type in feed links
-#: wp-includes/general-template.php:2794 wp-includes/general-template.php:2836
+#: wp-includes/general-template.php:2812 wp-includes/general-template.php:2854
 msgctxt "feed link"
 msgid "&raquo;"
 msgstr "&raquo;"
@@ -15255,34 +15255,34 @@ msgstr "Déconnexion"
 msgid "Log in"
 msgstr "Connexion"
 
-#: wp-includes/functions.php:5398
+#: wp-includes/functions.php:5399
 msgid "Manual Offsets"
 msgstr "Décalages manuels"
 
-#: wp-includes/functions.php:5389 wp-includes/functions.php:5394
+#: wp-includes/functions.php:5390 wp-includes/functions.php:5395
 msgid "UTC"
 msgstr "UTC"
 
-#: wp-includes/functions.php:5344
+#: wp-includes/functions.php:5345
 msgid "Select a city"
 msgstr "Sélectionner une ville"
 
 #. translators: 1: PHP function name, 2: version number
-#: wp-includes/functions.php:4655
+#: wp-includes/functions.php:4656
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s est appelé avec un argument qui est <strong>obsolète</strong> depuis la version %2$s, aucune alternative n’est disponible."
 
 #. translators: 1: PHP function name, 2: version number, 3: optional message
 #. regarding the change
-#: wp-includes/functions.php:4652
+#: wp-includes/functions.php:4653
 msgid "%1$s was called with an argument that is <strong>deprecated</strong> since version %2$s! %3$s"
 msgstr "%1$s est appelé avec un argument qui est <strong>obsolète</strong> depuis la version %2$s ! %3$s"
 
 #. translators: 1: PHP function name, 2: version number
 #. translators: 1: PHP file name, 2: version number
 #. translators: 1: WordPress hook name, 2: version number
-#: wp-includes/functions.php:4438 wp-includes/functions.php:4592
-#: wp-includes/functions.php:4714
+#: wp-includes/functions.php:4439 wp-includes/functions.php:4593
+#: wp-includes/functions.php:4715
 msgid "%1$s is <strong>deprecated</strong> since version %2$s with no alternative available."
 msgstr "%1$s est <strong>obsolète</strong> depuis la version %2$s, aucune alternative n’est disponible."
 
@@ -15291,43 +15291,43 @@ msgstr "%1$s est <strong>obsolète</strong> depuis la version %2$s, aucune alter
 #. translators: 1: PHP file name, 2: version number, 3: alternative file name
 #. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
 #. name
-#: wp-includes/functions.php:4435 wp-includes/functions.php:4589
-#: wp-includes/functions.php:4711
+#: wp-includes/functions.php:4436 wp-includes/functions.php:4590
+#: wp-includes/functions.php:4712
 msgid "%1$s is <strong>deprecated</strong> since version %2$s! Use %3$s instead."
 msgstr "%1$s est <strong>obsolète</strong> depuis la version %2$s ! Utilisez %3$s à la place."
 
-#: wp-load.php:92 wp-includes/functions.php:3537
+#: wp-load.php:92 wp-includes/functions.php:3538
 msgid "WordPress &rsaquo; Error"
 msgstr "WordPress » Erreur"
 
-#: wp-includes/functions.php:3088
+#: wp-includes/functions.php:3089
 msgid "&laquo; Back"
 msgstr "« Retour"
 
-#: wp-includes/functions.php:2923
+#: wp-includes/functions.php:2924
 msgid "Please try again."
 msgstr "Veuillez réessayer."
 
 #. translators: %s: logout URL
-#: wp-includes/functions.php:2913
+#: wp-includes/functions.php:2914
 msgid "Do you really want to <a href=\"%s\">log out</a>?"
 msgstr "Voulez-vous réellement <a href=\"%s\">vous déconnecter</a> ?"
 
 #. translators: %s: site name
-#: wp-includes/functions.php:2906
+#: wp-includes/functions.php:2907
 msgid "You are attempting to log out of %s"
 msgstr "Vous êtes en train de vous déconnecter de %s."
 
-#: wp-includes/functions.php:2405
+#: wp-includes/functions.php:2406
 msgid "Could not write file %s"
 msgstr "Impossible d’écrire le fichier %s"
 
-#: wp-includes/functions.php:2348
+#: wp-includes/functions.php:2349
 msgid "Empty filename"
 msgstr "Pas de nom de fichier"
 
 #. translators: %s: directory path
-#: wp-includes/functions.php:2112 wp-includes/functions.php:2397
+#: wp-includes/functions.php:2113 wp-includes/functions.php:2398
 msgid "Unable to create directory %s. Is its parent directory writable by the server?"
 msgstr "Impossible de créer le dossier %s. Son dossier parent est-il accessible en écriture par le serveur ?"
 
@@ -15737,7 +15737,7 @@ msgid "For some strange yet very annoying reason, this post could not be edited.
 msgstr "Pour une raison étrange et très ennuyeuse, cette publication n’a pas pu être modifiée."
 
 #: wp-includes/admin-bar.php:942 wp-includes/class-wp-customize-widgets.php:417
-#: wp-includes/functions.php:4325 wp-includes/js/dist/blocks.js:5804
+#: wp-includes/functions.php:4326 wp-includes/js/dist/blocks.js:5804
 msgid "Widgets"
 msgstr "Widgets"
 

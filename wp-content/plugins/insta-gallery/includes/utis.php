@@ -24,15 +24,20 @@ function qligg_get_user_profile($id = null) {
 
   global $qligg, $qligg_api;
 
-
   $profile_info = array();
+
+  $defaults = array(
+      'username' => 'nousername',
+      'full_name' => __('Something went wrong, remove this token', 'insta-gallery'),
+      'profile_picture' => 'http://2.gravatar.com/avatar/b642b4217b34b1e8d3bd915fc65c4452?s=96&d=mm&r=g',
+  );
 
   $tk = "insta_gallery_user_profile"; // transient key
 
   if (!QLIGG_PRODUCTION || false === ($profile_info = get_transient($tk))) {
 
     if (empty($id) || !isset($qligg[$id])) {
-      return $profile_info;
+      return $defaults;
     }
 
     if ($profile_info[$id] = $qligg_api->get_user_profile($qligg[$id])) {
@@ -40,7 +45,7 @@ function qligg_get_user_profile($id = null) {
     }
   }
 
-  return $profile_info[$id];
+  return wp_parse_args($profile_info[$id], $defaults);
 }
 
 // Get user feed

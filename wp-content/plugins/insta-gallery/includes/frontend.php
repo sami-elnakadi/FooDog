@@ -10,21 +10,22 @@ if (!class_exists('QLIGG_Frontend')) {
 
     function add_frontend_js() {
 
-      wp_enqueue_style('insta-gallery', plugins_url('/assets/css/qligg.min.css', QLIGG_PLUGIN_FILE), null, QLIGG_PLUGIN_VERSION);
-      wp_enqueue_script('insta-gallery', plugins_url('/assets/js/qligg.min.js', QLIGG_PLUGIN_FILE), array('jquery'), QLIGG_PLUGIN_VERSION, true);
+      wp_register_style('insta-gallery', plugins_url('/assets/css/qligg.min.css', QLIGG_PLUGIN_FILE), null, QLIGG_PLUGIN_VERSION);
+      wp_register_script('insta-gallery', plugins_url('/assets/js/qligg.min.js', QLIGG_PLUGIN_FILE), array('jquery'), QLIGG_PLUGIN_VERSION, true);
+
       wp_localize_script('insta-gallery', 'qligg', array(
           'ajax_url' => admin_url('admin-ajax.php')
       ));
 
       // Swiper
       // -----------------------------------------------------------------------
-      wp_enqueue_style('swiper', plugins_url('/assets/swiper/swiper.min.css', QLIGG_PLUGIN_FILE), null, QLIGG_PLUGIN_VERSION);
-      wp_enqueue_script('swiper', plugins_url('/assets/swiper/swiper.min.js', QLIGG_PLUGIN_FILE), array('jquery'), QLIGG_PLUGIN_VERSION, true);
+      wp_register_style('swiper', plugins_url('/assets/swiper/swiper.min.css', QLIGG_PLUGIN_FILE), null, QLIGG_PLUGIN_VERSION);
+      wp_register_script('swiper', plugins_url('/assets/swiper/swiper.min.js', QLIGG_PLUGIN_FILE), array('jquery'), QLIGG_PLUGIN_VERSION, true);
 
       // Popup
       // -----------------------------------------------------------------------
-      wp_enqueue_style('magnific-popup', plugins_url('/assets/magnific-popup/magnific-popup.min.css', QLIGG_PLUGIN_FILE), null, QLIGG_PLUGIN_VERSION);
-      wp_enqueue_script('magnific-popup', plugins_url('/assets/magnific-popup/jquery.magnific-popup.min.js', QLIGG_PLUGIN_FILE), array('jquery'), QLIGG_PLUGIN_VERSION, true);
+      wp_register_style('magnific-popup', plugins_url('/assets/magnific-popup/magnific-popup.min.css', QLIGG_PLUGIN_FILE), null, QLIGG_PLUGIN_VERSION);
+      wp_register_script('magnific-popup', plugins_url('/assets/magnific-popup/jquery.magnific-popup.min.js', QLIGG_PLUGIN_FILE), array('jquery'), QLIGG_PLUGIN_VERSION, true);
     }
 
     function get_items($instagram_item = false) {
@@ -115,27 +116,19 @@ if (!class_exists('QLIGG_Frontend')) {
 
       $instagram_item = $instagram_items[$id];
 
-      // Continue to results
+      // Template
       // -----------------------------------------------------------------------
+      
+      //$instagram_item['ig_display_type'] = 'masonry';
 
-      if ($instagram_item['ig_display_type'] === 'gallery') {
-
-        ob_start();
-
-        include($this->template_path('gallery.php'));
-
-        wp_send_json_success(ob_get_clean());
-      }
-
-      if ($instagram_item['ig_display_type'] == 'carousel') {
+      if ($instagram_item['ig_display_type']) {
 
         ob_start();
 
-        include($this->template_path('carousel.php'));
+        include($this->template_path("{$instagram_item['ig_display_type']}.php"));
 
         wp_send_json_success(ob_get_clean());
       }
-
 
       if (($instagram_item['ig_select_from'] == 'username') && !$qligg_api->validate_token($instagram_item['insta_username'])) {
 
@@ -177,7 +170,10 @@ if (!class_exists('QLIGG_Frontend')) {
         //if (count($instagram_items = get_option('insta_gallery_items'))) {
         //if (isset($instagram_item) && ($instagram_item = $instagram_item)) {
 
+        wp_enqueue_style('insta-gallery');
         wp_enqueue_script('insta-gallery');
+
+        wp_enqueue_style('magnific-popup');
         wp_enqueue_script('magnific-popup');
 
         //if ($instagram_item['ig_display_type'] == 'carousel') {

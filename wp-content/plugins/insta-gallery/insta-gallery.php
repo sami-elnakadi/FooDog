@@ -10,7 +10,7 @@
  * Tested up to: 5.2
  * Text Domain: insta-gallery
  * Domain Path: /languages/
- * Version: 2.3.0
+ * Version: 2.3.1
  */
 
 if (!defined('ABSPATH'))
@@ -20,7 +20,7 @@ if (!defined('QLIGG_PLUGIN_NAME')) {
   define('QLIGG_PLUGIN_NAME', 'Instagram Gallery');
 }
 if (!defined('QLIGG_PLUGIN_VERSION')) {
-  define('QLIGG_PLUGIN_VERSION', '2.3.0');
+  define('QLIGG_PLUGIN_VERSION', '2.3.1');
 }
 if (!defined('QLIGG_PLUGIN_FILE')) {
   define('QLIGG_PLUGIN_FILE', __FILE__);

@@ -47,24 +47,8 @@ if (!class_exists('QLIGG_Options')) {
 
       global $qligg;
 
-      $options = get_option('insta_gallery_token', get_option('insta_gallery_iac', array()));
+      $qligg = get_option('insta_gallery_token', get_option('insta_gallery_iac', array()));
 
-      $qligg = wp_parse_args($options, array(
-              //'3617511663' => '3617511663.6e628e6.b9ce4730be83482f84943bc2cbfdd077',
-      ));
-
-      //if ($option && is_array($option)) {
-      //$qligg = array_map(function ($value) {
-      //  return base64_decode($value);
-      //}, $options);
-      // }
-      //if (isset($qligg['access_token'])) {
-      //$access_token = base64_decode($qligg['access_token']);
-      //$access_token_id = explode('.', $access_token);
-      //$qligg = array(
-      //    $access_token_id[0] => $access_token
-      //);
-      //}
     }
 
     function rename_insta_gallery_token($qligg = array()) {
