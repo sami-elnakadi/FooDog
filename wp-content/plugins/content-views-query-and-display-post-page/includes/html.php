@@ -402,7 +402,7 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 			$title	 = apply_filters( PT_CV_PREFIX_ . 'field_title_result', $title, $fargs, $post );
 			$html	 = sprintf(
 				'<%1$s class="%2$s">%3$s</%1$s>', tag_escape( $tag ), esc_attr( $title_class ), self::_field_href( $post, $title )
-			);
+			);//<%1$s class="%2$s">%3$s</%1$s>
 
 			return apply_filters( PT_CV_PREFIX_ . 'field_title_final', $html, $post );
 		}
@@ -449,7 +449,11 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 						}
 
 						// Append readmore button
-						$content = apply_filters( PT_CV_PREFIX_ . 'excerpt_html', ($show_dots ? rtrim( $excerpt, '.' ) : $excerpt) . $tail, $post ) . $readmore_btn;
+						$cat		 = get_the_category_list();
+						$cat		= '<div class="pcat">'.$cat.'</div>';
+						$title		 = get_the_title( $post );
+						$title		= '<div class="ptitle">'.$title.'</div>';
+						$content = apply_filters( PT_CV_PREFIX_ . 'excerpt_html', $cat . $title . ($show_dots ? rtrim( $excerpt, '.' ) : $excerpt) . $tail, $post ) . $readmore_btn;
 					} else {
 						// Display only readmore button if length <= 0
 						$content = $readmore_btn;
@@ -465,10 +469,9 @@ if ( !class_exists( 'PT_CV_Html' ) ) {
 
 					break;
 			}
-
 			$content = apply_filters( PT_CV_PREFIX_ . 'field_content_final', $content, $post );
 			$html	 = rtrim( $content, '.' ) ? sprintf( '<%1$s class="%2$s">%3$s</%1$s>', tag_escape( $tag ), esc_attr( $content_class ), force_balance_tags( $content ) ) : '';
-
+//<h2 class="h2title">'.$title.'</h2>
 			return $html;
 		}
 

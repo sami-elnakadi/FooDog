@@ -73,3 +73,37 @@ a:hover{
 .pt-cv-wrapper .text-left{
     text-align: center !important;
 }
+
+/*Amo*/
+
+.header-nav-wrapper .container .row{
+    border-bottom: 1px solid #ccc;
+}  
+header h2 a{
+    line-height: 30px;
+    font-size: 0.7em;
+}
+.ptitle:hover,header h2 a:hover{
+    border-bottom: #ff9575 solid 3px;
+}
+.ptitle{
+    color: #000 !important;
+    font-size: 1.5em;
+    line-height: 20px;
+    margin-bottom: 14px;
+    padding-left: 10px;
+}
+.pcat ul li a{
+    color: #ff9575!important;
+    border-right: solid 1px #ddd;
+    padding-right: 10px;
+}
+.pcat ul{
+    list-style: none;
+    position: relative;
+    top: 10px;
+}
+h1.entry-title{
+    color: #000;
+}
+
