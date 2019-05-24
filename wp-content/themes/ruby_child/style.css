@@ -1,52 +1,29 @@
-/*
-Theme Name: Ruby-Child
-Description: Gestion des polices du site FooDog
-Author: Massart Dzénetan
-Template: ruby
-Version: 1.0
-*/
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
 @import url('https://fonts.googleapis.com/css?family=Crimson+Text');
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Crimson Text', serif !important;
+.col-sm-10{
+position:absolute;
+bottom:0;
+right:35%;
+
+
+
 }
 
-.list-inline {
-    display: inline !important;
-    list-style: none !important;
-    margin-left: 0 !important;
-    padding-left: 0 !important;
+.menu-item-object-custom {
+margin:15px;
 }
 
-.widget-title::after {
-    height: 0px;
+.menu-item{
+text-transform:uppercase !important;
 }
 
-.widget li {
-    border-bottom: none;
-    font-weight: bold;
+.logo-site-title{
+		font-size:50px !important;
+	font-family: 'Crimson Text', serif !important;
+position:absolute;
+top:0;
+left:230%;
+
 }
-
-.widget {
-    border: none;
+.header-nav-wrapper {
+height:120px;
 }
-
-.social-icon{
-font-size:35px;
-}
-
-
-
-
-
-
-
